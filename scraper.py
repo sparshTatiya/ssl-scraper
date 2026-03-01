@@ -22,7 +22,7 @@ SSL_LISTING_URL = f"{BASE_URL}/need/?s=1&need_init_id=2962&dir=DESC&orderby=need
 DETAIL_URL = f"{BASE_URL}/need/detail/?need_id={{}}"
 OUTPUT_DIR = Path("docs")
 OUTPUT_FILE = OUTPUT_DIR / "opportunities.json"
-MAX_OPPORTUNITIES = 200  # Set to 0 for unlimited
+MAX_OPPORTUNITIES = 1000  # Set to 0 for unlimited
 REQUEST_DELAY = 0.3
 
 HEADERS = {
