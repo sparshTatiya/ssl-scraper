@@ -1,37 +1,32 @@
 """
-SSL Finder Scraper v3
-Scrapes ALL volunteer opportunities from Montgomery County Volunteer Center
-using HTTP pagination (no browser needed).
-
-URL patterns:
-  Listing: /need/index/{offset}  (offset increments by 12)
-  Newest:  /need/index/{offset}/?dir=DESC&orderby=need_id
-  SSL:     /need/index/{offset}/?need_init_id=2962&s=1
-  Detail:  /need/detail/?need_id={id}
+SSL Finder Scraper v4
+Uses Playwright to navigate paginated listing, then fetches detail pages via HTTP.
+Combines browser-based listing extraction with fast HTTP detail scraping.
 """
 
+import asyncio
 import json
 import re
 import time
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+from playwright.async_api import async_playwright
 
 BASE_URL = "https://montgomerycountymd.galaxydigital.com"
-LISTING_URL = f"{BASE_URL}/need/index/{{offset}}/?s=1&dir=DESC&orderby=need_id"
-SSL_LISTING_URL = f"{BASE_URL}/need/index/{{offset}}/?need_init_id=2962&s=1&dir=DESC&orderby=need_id"
-DETAIL_URL = f"{BASE_URL}/need/detail/?need_id={{id}}"
+# Use table view (list icon) sorted newest first for fastest extraction
+LISTING_URL = f"{BASE_URL}/need/?s=1&dir=DESC&orderby=need_id"
+SSL_LISTING_URL = f"{BASE_URL}/need/?s=1&need_init_id=2962&dir=DESC&orderby=need_id"
+DETAIL_URL = f"{BASE_URL}/need/detail/?need_id={{}}"
 OUTPUT_DIR = Path("docs")
 OUTPUT_FILE = OUTPUT_DIR / "opportunities.json"
-PER_PAGE = 12
-REQUEST_DELAY = 0.5  # seconds between requests to be polite
 MAX_OPPORTUNITIES = 200  # Set to 0 for unlimited
+REQUEST_DELAY = 0.3
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
     "Accept": "text/html,application/xhtml+xml",
 }
 
@@ -41,12 +36,10 @@ JUNK = [
     "Get Connected Icon", "Posted By", "Back to Volunteer Center Home",
     "Share Opportunity", "Respond as Group", "Site Supervisor",
     "Skip to main content", "Open side bar", "Collapse Menu",
-    "Open top navigation menu",
 ]
 
 
 def clean(text):
-    """Remove junk phrases and collapse whitespace."""
     if not text:
         return ""
     result = text
@@ -59,10 +52,8 @@ def clean(text):
 
 
 def parse_address_block(lines):
-    """Parse address lines into (full_address, city, zip)."""
     city, zip_code, city_idx = "", "", -1
     cleaned = [clean(l) for l in lines if clean(l)]
-
     for i, line in enumerate(cleaned):
         m = re.match(r'^([A-Za-z\s]+),\s*MD\s*$', line, re.IGNORECASE)
         if m:
@@ -75,7 +66,6 @@ def parse_address_block(lines):
         m = re.match(r'^(\d{5})$', line)
         if m:
             zip_code = m.group(1)
-
     parts = [cleaned[i] for i in range(len(cleaned)) if i < city_idx or city_idx < 0]
     parts = [p for p in parts if len(p) >= 2]
     street = ', '.join(parts)
@@ -87,140 +77,107 @@ def parse_address_block(lines):
     return full, city, zip_code
 
 
-# ── Listing page scraper ─────────────────────────────────────────
+# ── Phase 1: Collect all opportunity IDs from listing pages ──────
 
-def get_page(url):
-    """Fetch a page and return BeautifulSoup."""
-    resp = requests.get(url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    return BeautifulSoup(resp.text, "html.parser")
-
-
-def scrape_listing_page(offset, ssl_only=False):
-    """Scrape one page of the listing table. Returns list of {id, title, org, date, url}."""
-    template = SSL_LISTING_URL if ssl_only else LISTING_URL
-    url = template.format(offset=offset)
-
-    try:
-        soup = get_page(url)
-    except Exception as e:
-        print(f"    Error fetching offset {offset}: {e}")
-        return []
-
-    opportunities = []
-
-    # Find all links to detail pages
-    for link in soup.find_all("a", href=re.compile(r"need_id=\d+")):
-        href = link.get("href", "")
-        m = re.search(r"need_id=(\d+)", href)
-        if not m:
-            continue
-        opp_id = m.group(1)
-
-        # Get the title from the link text
-        title = clean(link.get_text())
-        if not title or len(title) < 3:
-            continue
-
-        # Try to find the parent row to get org and date
-        row = link.find_parent("tr") or link.find_parent("div")
-        org = ""
-        date_text = ""
-        if row:
-            # Organization is usually in a smaller text under the title
-            small = row.find("small") or row.find(class_=re.compile(r"agency|org"))
-            if small:
-                org = clean(small.get_text())
-            # Date
-            cells = row.find_all("td")
-            for cell in cells:
-                text = cell.get_text().strip()
-                if "Ongoing" in text or "Happens" in text or re.search(r'\d{4}', text):
-                    date_text = clean(text)
-
-        full_url = href if href.startswith("http") else f"{BASE_URL}{href}"
-
-        opportunities.append({
-            "id": opp_id,
-            "title": title,
-            "organization": org,
-            "date_text": date_text,
-            "url": full_url,
-        })
-
-    # Deduplicate by ID within this page
+async def collect_all_ids(url, label="ALL"):
+    """Use Playwright to click through pages and collect all need_ids."""
+    all_ids = []
     seen = set()
-    unique = []
-    for o in opportunities:
-        if o["id"] not in seen:
-            seen.add(o["id"])
-            unique.append(o)
-    return unique
+
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        page = await browser.new_page(
+            viewport={"width": 1280, "height": 900},
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+        )
+
+        print(f"\n📋 Collecting {label} opportunity IDs...")
+        await page.goto(url, wait_until="networkidle", timeout=30000)
+        await page.wait_for_timeout(2000)
+
+        page_num = 1
+        while True:
+            # Extract all need_ids from current page
+            ids_on_page = await page.evaluate("""
+                () => {
+                    const links = document.querySelectorAll('a[href*="need_id="]');
+                    const ids = new Set();
+                    for (const a of links) {
+                        const m = a.href.match(/need_id=(\\d+)/);
+                        if (m) ids.add(m[1]);
+                    }
+                    return Array.from(ids);
+                }
+            """)
+
+            new_count = 0
+            for oid in ids_on_page:
+                if oid not in seen:
+                    seen.add(oid)
+                    all_ids.append(oid)
+                    new_count += 1
+
+            if page_num % 5 == 0 or new_count == 0:
+                print(f"    Page {page_num}: {new_count} new IDs (total: {len(all_ids)})")
+
+            if new_count == 0:
+                print(f"    No new IDs on page {page_num}, stopping.")
+                break
+
+            if MAX_OPPORTUNITIES > 0 and len(all_ids) >= MAX_OPPORTUNITIES:
+                print(f"    Reached limit of {MAX_OPPORTUNITIES}")
+                break
+
+            # Click "Next" page button
+            try:
+                # Look for the ">" or "Next" or next page number
+                next_btn = page.locator('a:has-text(">")')
+                if await next_btn.count() > 0 and await next_btn.first.is_visible():
+                    await next_btn.first.click()
+                    await page.wait_for_timeout(2000)
+                    page_num += 1
+                else:
+                    # Try clicking next page number directly
+                    next_page = page.locator(f'a:has-text("{page_num + 1}")')
+                    if await next_page.count() > 0:
+                        await next_page.first.click()
+                        await page.wait_for_timeout(2000)
+                        page_num += 1
+                    else:
+                        print(f"    No next button found after page {page_num}")
+                        break
+            except Exception as e:
+                print(f"    Pagination error on page {page_num}: {e}")
+                break
+
+        await browser.close()
+
+    print(f"  ✅ Collected {len(all_ids)} {label} IDs across {page_num} pages")
+    return all_ids
 
 
-def scrape_all_listings(ssl_only=False):
-    """Scrape all pages of listings."""
-    all_opps = []
-    seen_ids = set()
-    offset = 0
-    empty_count = 0
+# ── Phase 2: Fetch detail pages via HTTP (fast) ─────────────────
 
-    label = "SSL" if ssl_only else "ALL"
-    print(f"\n📋 Scraping {label} listing pages...")
-
-    while empty_count < 3:  # Stop after 3 empty pages in a row
-        if MAX_OPPORTUNITIES > 0 and len(all_opps) >= MAX_OPPORTUNITIES:
-            print(f"    Reached limit of {MAX_OPPORTUNITIES} opportunities")
-            break
-
-        results = scrape_listing_page(offset, ssl_only)
-
-        new_count = 0
-        for opp in results:
-            if opp["id"] not in seen_ids:
-                seen_ids.add(opp["id"])
-                all_opps.append(opp)
-                new_count += 1
-
-        if new_count == 0:
-            empty_count += 1
-        else:
-            empty_count = 0
-
-        page_num = (offset // PER_PAGE) + 1
-        if page_num % 10 == 0 or new_count == 0:
-            print(f"    Page {page_num}: {new_count} new (total: {len(all_opps)})")
-
-        offset += PER_PAGE
-        time.sleep(REQUEST_DELAY)
-
-    print(f"  ✅ Found {len(all_opps)} unique {label} opportunities across {offset // PER_PAGE} pages")
-    return all_opps
-
-
-# ── Detail page scraper ──────────────────────────────────────────
-
-def scrape_detail(opp_id):
-    """Scrape a single opportunity detail page."""
-    url = DETAIL_URL.format(id=opp_id)
+def fetch_detail(opp_id):
+    """Fetch and parse a single detail page."""
+    url = DETAIL_URL.format(opp_id)
     try:
-        soup = get_page(url)
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
     except Exception as e:
-        print(f"    Error fetching detail {opp_id}: {e}")
-        return {}
+        return {"error": str(e)}
 
-    result = {}
+    result = {"id": opp_id, "url": url}
 
-    # Title - h1 or h2
+    # Title
     h1 = soup.find("h1")
-    if h1:
-        result["title"] = clean(h1.get_text())
+    result["title"] = clean(h1.get_text()) if h1 else ""
 
-    # Description - content after "Description" header
+    # Description
     desc = ""
     for header in soup.find_all(["h2", "h3", "h4"]):
         if "Description" in header.get_text():
-            # Collect all following siblings until next header
             parts = []
             for sib in header.find_next_siblings():
                 if sib.name in ["h2", "h3", "h4"]:
@@ -232,34 +189,8 @@ def scrape_detail(opp_id):
             break
     result["description"] = clean(desc)
 
-    # Details section - age, family friendly, outdoors, etc.
-    details_section = {}
-    for header in soup.find_all(["h2", "h3"]):
-        if "Details" in header.get_text() and "Description" not in header.get_text():
-            table = header.find_next("table")
-            if table:
-                for row in table.find_all("tr"):
-                    cells = row.find_all("td")
-                    if len(cells) >= 2:
-                        details_section[clean(cells[0].get_text())] = clean(cells[1].get_text())
-            break
-
-    # Extract age requirements from details
-    age_req = ""
-    for key, val in details_section.items():
-        if "age" in val.lower() or "between" in val.lower():
-            age_req = val
-            break
-    result["age_requirements"] = age_req
-
-    # Is family friendly, outdoors
-    page_text = soup.get_text().lower()
-    result["is_family_friendly"] = "family friendly" in page_text
-    result["is_outdoors"] = "is outdoors" in page_text
-    result["is_virtual"] = "virtual" in page_text
-
-    # Location section
-    location_parts = []
+    # Location
+    location_lines = []
     for header in soup.find_all(["h2", "h3"]):
         if header.get_text().strip() == "Location":
             table = header.find_next("table")
@@ -267,54 +198,9 @@ def scrape_detail(opp_id):
                 for row in table.find_all("tr"):
                     text = clean(row.get_text())
                     if text:
-                        location_parts.append(text)
+                        location_lines.append(text)
             break
-    result["location_lines"] = location_parts
-
-    # Date/time info from the table near the top
-    # Look for "ongoing" or "Happens On" or time ranges
-    date_type = "ongoing"
-    event_date = ""
-    hours = ""
-    for table in soup.find_all("table"):
-        text = table.get_text()
-        if "ongoing" in text.lower():
-            date_type = "ongoing"
-        date_match = re.search(r"Happens On\s+([A-Za-z]+\s+\d{1,2},?\s+\d{4})", text)
-        if date_match:
-            event_date = date_match.group(1)
-            date_type = event_date
-        time_match = re.findall(
-            r'\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM)\s*[-–to]+\s*\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM)',
-            text
-        )
-        if time_match:
-            hours = "; ".join(time_match)
-            break
-
-    result["date_type"] = date_type
-    result["event_date"] = event_date
-    result["hours"] = hours
-
-    # Interests/categories
-    interests = []
-    for li in soup.find_all("li"):
-        text = li.get_text().strip()
-        # Interest items are usually short category names
-        if text and len(text) < 50 and "/" in text or text in [
-            "Recreation / Sports", "Food Prep & Delivery", "Housing / Shelter",
-            "Events / Collections", "Collection Drive", "Court Ordered",
-            "Education / Mentoring", "Arts / Culture", "Professional Skills",
-            "Environment", "Health / Wellness", "Technology", "Animals",
-            "Community Building", "Advocacy",
-        ]:
-            interests.append(text)
-    # Also check for interest items in specific containers
-    for el in soup.find_all(class_=re.compile(r"interest|category|init")):
-        text = el.get_text().strip()
-        if text and len(text) < 50 and text not in interests:
-            interests.append(text)
-    result["interests"] = interests
+    result["location_lines"] = location_lines
 
     # Organization
     org = ""
@@ -326,47 +212,109 @@ def scrape_detail(opp_id):
             break
     result["organization"] = org
 
-    # SSL status
-    result["is_ssl"] = "mcps ssl" in page_text or "ssl approved" in page_text or "student service learning" in page_text
+    # Date/time
+    page_text = soup.get_text()
+    date_type = "ongoing"
+    event_date = ""
+    hours = ""
 
-    # Initiative title
+    date_match = re.search(r"Happens On\s+([A-Za-z]+\s+\d{1,2},?\s+\d{4})", page_text)
+    if date_match:
+        event_date = date_match.group(1)
+        date_type = event_date
+
+    time_matches = re.findall(
+        r'\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM)\s*[-\u2013to]+\s*\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM)',
+        page_text
+    )
+    if time_matches:
+        hours = "; ".join(time_matches[:3])  # Cap at 3 time ranges
+
+    if "ongoing" in page_text.lower() and not event_date:
+        date_type = "ongoing"
+
+    result["date_type"] = date_type
+    result["event_date"] = event_date
+    result["hours"] = hours
+
+    # Details section (age, family friendly, etc.)
+    page_lower = page_text.lower()
+    age_req = ""
+    for header in soup.find_all(["h2", "h3"]):
+        if "Details" in header.get_text() and "Description" not in header.get_text():
+            table = header.find_next("table")
+            if table:
+                for row in table.find_all("tr"):
+                    text = clean(row.get_text())
+                    if "age" in text.lower() or "between" in text.lower():
+                        age_req = text
+            break
+    result["age_requirements"] = age_req
+
+    min_age, max_age = 0, 0
+    age_nums = re.findall(r'(\d+)', age_req)
+    if age_nums:
+        min_age = int(age_nums[0])
+        if len(age_nums) > 1:
+            max_age = int(age_nums[1])
+    result["min_age"] = min_age
+    result["max_age"] = max_age
+
+    result["is_family_friendly"] = "family friendly" in page_lower
+    result["is_outdoors"] = "is outdoors" in page_lower
+    result["is_virtual"] = "virtual opportunity" in page_lower
+
+    # Interests
+    interests = []
+    known = [
+        "Recreation / Sports", "Food Prep & Delivery", "Housing / Shelter",
+        "Events / Collections", "Collection Drive", "Court Ordered",
+        "Education / Mentoring", "Arts / Culture", "Professional Skills",
+        "Environment", "Health / Wellness", "Technology", "Animals",
+        "Community Building", "Advocacy",
+    ]
+    for cat in known:
+        if cat.lower() in page_lower:
+            interests.append(cat)
+    result["interests"] = interests
+
+    # SSL status
+    result["is_ssl"] = "mcps ssl" in page_lower or "student service learning" in page_lower
+
+    # Initiative title from breadcrumb
     init_title = ""
     breadcrumb = soup.find("ol") or soup.find(class_=re.compile(r"breadcrumb"))
     if breadcrumb:
         for a in breadcrumb.find_all("a"):
-            if "init" in a.get("href", ""):
+            href = a.get("href", "")
+            if "init" in href:
                 init_title = clean(a.get_text())
     result["initiative_title"] = init_title
 
-    # Contact / Site Supervisor
-    contact_name = ""
-    contact_email = ""
-    contact_phone = ""
+    # Contact
+    contact_name, contact_email, contact_phone = "", "", ""
     for header in soup.find_all(["h2", "h3"]):
         if "Supervisor" in header.get_text() or "Contact" in header.get_text():
             table = header.find_next("table")
             if table:
                 for row in table.find_all("tr"):
                     text = clean(row.get_text())
-                    email_match = re.search(r'[\w.+-]+@[\w.-]+\.\w+', text)
-                    phone_match = re.search(r'[\d\(\)]{3,}[\s\-\.\d\(\)ext]+\d', text)
-                    if email_match:
-                        contact_email = email_match.group(0)
-                    elif phone_match:
-                        contact_phone = phone_match.group(0).strip()
+                    em = re.search(r'[\w.+-]+@[\w.-]+\.\w+', text)
+                    ph = re.search(r'[\d\(\)]{3,}[\s\-\.\d\(\)ext]+\d', text)
+                    if em:
+                        contact_email = em.group(0)
+                    elif ph:
+                        contact_phone = ph.group(0).strip()
                     elif text and not contact_name and len(text) > 2:
                         contact_name = text
             break
+    parts = [p for p in [contact_name, contact_email, contact_phone] if p]
+    result["contact"] = " | ".join(parts)
 
-    contact_parts = [p for p in [contact_name, contact_email, contact_phone] if p]
-    result["contact"] = " | ".join(contact_parts)
-
-    # Allow teams
-    result["allow_teams"] = "respond as group" in page_text or "group" in page_text
-
-    # Volunteers needed
+    # Teams & capacity
+    result["allow_teams"] = "respond as group" in page_lower
     cap = 0
-    cap_match = re.search(r'(\d+)\s*(?:volunteers?\s*needed|spots?\s*(?:left|available))', page_text)
+    cap_match = re.search(r'(\d+)\s*(?:volunteers?\s*needed|spots?\s*(?:left|available))', page_lower)
     if cap_match:
         cap = int(cap_match.group(1))
     result["capacity"] = cap
@@ -374,53 +322,26 @@ def scrape_detail(opp_id):
     return result
 
 
-# ── Normalize ─────────────────────────────────────────────────────
+# ── Phase 3: Normalize ───────────────────────────────────────────
 
-def normalize_opportunity(listing, detail):
-    """Combine listing + detail data into final format."""
-    title = detail.get("title") or listing.get("title", "")
-    org = detail.get("organization") or listing.get("organization", "")
-
-    # Parse address
-    location_lines = detail.get("location_lines", [])
-    full_addr, city, zip_code = parse_address_block(location_lines)
-
-    # Build contact
-    contact = detail.get("contact", "")
-
-    # Interests
-    interests_list = detail.get("interests", [])
-    interests = ", ".join(interests_list) if interests_list else ""
-
-    # SSL status
+def normalize(detail):
+    full_addr, city, zip_code = parse_address_block(detail.get("location_lines", []))
     is_ssl = detail.get("is_ssl", False)
     init_title = detail.get("initiative_title", "")
     if "ssl" in init_title.lower():
         is_ssl = True
 
-    # Hours
     hours = detail.get("hours", "")
     if not hours and detail.get("date_type") == "ongoing":
         hours = "Ongoing"
 
-    # Age
-    age_req = detail.get("age_requirements", "")
-    # Extract min/max age numbers for filtering
-    min_age = 0
-    max_age = 0
-    age_nums = re.findall(r'(\d+)', age_req)
-    if age_nums:
-        min_age = int(age_nums[0])
-        if len(age_nums) > 1:
-            max_age = int(age_nums[1])
-
     return {
-        "id": listing["id"],
-        "needtitle": title,
-        "agencyname": org,
+        "id": detail["id"],
+        "needtitle": detail.get("title", ""),
+        "agencyname": detail.get("organization", ""),
         "needdetails": detail.get("description", ""),
-        "needlinkURL": listing.get("url", ""),
-        "signupURL": listing.get("url", ""),
+        "needlinkURL": detail.get("url", ""),
+        "signupURL": detail.get("url", ""),
         "needaddress": full_addr,
         "needcity": city,
         "needstate": "MD",
@@ -429,13 +350,13 @@ def normalize_opportunity(listing, detail):
         "needdate": detail.get("event_date", ""),
         "registrationclosed": "",
         "needhoursdescription": hours,
-        "needagerequirements": age_req,
-        "minAge": min_age,
-        "maxAge": max_age,
+        "needagerequirements": detail.get("age_requirements", ""),
+        "minAge": detail.get("min_age", 0),
+        "maxAge": detail.get("max_age", 0),
         "needallowteams": detail.get("allow_teams", False),
         "needvolunteersneeded": detail.get("capacity", 0),
-        "needcontact": contact,
-        "interests": interests,
+        "needcontact": detail.get("contact", ""),
+        "interests": ", ".join(detail.get("interests", [])),
         "qualifications": "",
         "initiativetitle": "MCPS SSL" if is_ssl else init_title,
         "isSSL": is_ssl,
@@ -451,81 +372,81 @@ def normalize_opportunity(listing, detail):
 
 # ── Main ──────────────────────────────────────────────────────────
 
-def main():
+async def main():
     print("=" * 60)
-    print("SSL Finder Scraper v3 (HTTP + Pagination)")
+    print("SSL Finder Scraper v4 (Playwright pagination + HTTP details)")
     print(f"Run at: {datetime.now(timezone.utc).isoformat()}")
+    if MAX_OPPORTUNITIES > 0:
+        print(f"Limit: {MAX_OPPORTUNITIES} opportunities")
     print("=" * 60)
 
-    # Step 1: Get all listing pages
-    all_listings = scrape_all_listings(ssl_only=False)
+    # Phase 1: Collect IDs
+    all_ids = await collect_all_ids(LISTING_URL, "ALL")
 
-    # Step 2: Also get SSL listings to tag them
-    ssl_listings = scrape_all_listings(ssl_only=True)
-    ssl_ids = {o["id"] for o in ssl_listings}
-    print(f"\n🎓 {len(ssl_ids)} opportunities are SSL-approved")
+    ssl_ids_list = await collect_all_ids(SSL_LISTING_URL, "SSL")
+    ssl_ids = set(ssl_ids_list)
+    print(f"\n🎓 {len(ssl_ids)} SSL-approved IDs identified")
 
-    # Step 3: Scrape detail pages for all opportunities
-    print(f"\n📄 Scraping {len(all_listings)} detail pages...")
-    normalized = []
+    # Deduplicate - use all_ids as primary, tag SSL
+    final_ids = list(dict.fromkeys(all_ids + ssl_ids_list))  # preserve order, dedup
+    if MAX_OPPORTUNITIES > 0:
+        final_ids = final_ids[:MAX_OPPORTUNITIES]
+
+    # Phase 2: Fetch details
+    print(f"\n📄 Fetching {len(final_ids)} detail pages...")
+    results = []
     errors = 0
 
-    for i, listing in enumerate(all_listings):
-        try:
-            detail = scrape_detail(listing["id"])
-            if listing["id"] in ssl_ids:
-                detail["is_ssl"] = True
-            opp = normalize_opportunity(listing, detail)
-            normalized.append(opp)
-        except Exception as e:
-            print(f"    Error on {listing['id']}: {e}")
+    for i, oid in enumerate(final_ids):
+        detail = fetch_detail(oid)
+        if "error" in detail:
             errors += 1
+        else:
+            if oid in ssl_ids:
+                detail["is_ssl"] = True
+            results.append(normalize(detail))
 
-        if (i + 1) % 50 == 0 or (i + 1) == len(all_listings):
-            print(f"    Progress: {i + 1}/{len(all_listings)} ({errors} errors)")
-
+        if (i + 1) % 25 == 0 or (i + 1) == len(final_ids):
+            print(f"    Progress: {i + 1}/{len(final_ids)} ({errors} errors)")
         time.sleep(REQUEST_DELAY)
 
     # Stats
-    ssl_count = sum(1 for o in normalized if o.get("isSSL"))
+    ssl_count = sum(1 for o in results if o.get("isSSL"))
     print(f"\n📊 Results:")
-    print(f"   Total: {len(normalized)}")
+    print(f"   Total: {len(results)}")
     print(f"   SSL: {ssl_count}")
-    print(f"   Non-SSL: {len(normalized) - ssl_count}")
+    print(f"   Non-SSL: {len(results) - ssl_count}")
     print(f"   Errors: {errors}")
 
-    # Sample
-    for opp in normalized[:3]:
+    for opp in results[:3]:
         print(f"\n   [{opp['id']}] {opp['needtitle'][:60]}")
-        print(f"     Org: {opp['agencyname'][:40]}")
-        print(f"     City: {opp['needcity']} | SSL: {opp['isSSL']}")
+        print(f"     Org: {opp['agencyname'][:40]} | City: {opp['needcity']} | SSL: {opp['isSSL']}")
 
-    # Write output
+    # Write
     output = {
         "metadata": {
             "scraped_at": datetime.now(timezone.utc).isoformat(),
             "source": "montgomerycountymd.galaxydigital.com",
-            "total_count": len(normalized),
+            "total_count": len(results),
             "ssl_count": ssl_count,
         },
-        "opportunities": normalized,
+        "opportunities": results,
     }
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-    print(f"\n💾 Wrote {len(normalized)} opportunities to {OUTPUT_FILE}")
+    print(f"\n💾 Wrote {len(results)} opportunities to {OUTPUT_FILE}")
 
-    # Index page
     (OUTPUT_DIR / "index.html").write_text(
         f'<!DOCTYPE html><html><head><title>SSL Finder API</title></head>'
         f'<body><h1>SSL Finder Data</h1>'
         f'<p>Last updated: {datetime.now(timezone.utc).strftime("%B %d, %Y at %H:%M UTC")}</p>'
         f'<p><a href="opportunities.json">opportunities.json</a></p>'
-        f'<p>{len(normalized)} total opportunities ({ssl_count} SSL-approved)</p>'
+        f'<p>{len(results)} total ({ssl_count} SSL-approved)</p>'
         f'</body></html>'
     )
     print("✅ Done!")
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
