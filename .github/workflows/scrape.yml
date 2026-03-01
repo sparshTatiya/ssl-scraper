@@ -1,0 +1,42 @@
+name: Scrape SSL Opportunities
+
+on:
+  schedule:
+    - cron: '0 15 * * *'   # 10:00 AM ET
+    - cron: '0 21 * * *'   # 4:00 PM ET
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "SSL Scraper Bot"
+          git config user.email "bot@ssl-finder.local"
+          git add docs/
+          git diff --cached --quiet || git commit -m "Update opportunities - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
