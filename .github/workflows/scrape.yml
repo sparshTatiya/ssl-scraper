@@ -2,8 +2,21 @@ name: Scrape SSL Opportunities
 
 on:
   schedule:
-    - cron: '0 10,16,22 * * *'  # 3x daily: 5AM, 11AM, 5PM ET
+    # FULL scrape: 6 AM ET daily (11:00 UTC)
+    - cron: '0 11 * * *'
+    # QUICK check: every 15 min from 9 AM to 9 PM ET (14:00 - 01:59 UTC)
+    - cron: '*/15 14-23 * * *'
+    - cron: '*/15 0-1 * * *'
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Scrape mode'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full
+          - quick
   push:
     branches: [main]
 
@@ -14,7 +27,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -30,13 +43,43 @@ jobs:
           playwright install chromium
           playwright install-deps chromium
 
+      - name: Determine scrape mode
+        id: mode
+        run: |
+          # Manual trigger uses input
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> $GITHUB_OUTPUT
+          # Push triggers full scrape
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            echo "mode=full" >> $GITHUB_OUTPUT
+          # Schedule: check the hour (UTC)
+          else
+            HOUR=$(date -u +%H)
+            # 11:00 UTC = 6 AM ET = full scrape time
+            if [ "$HOUR" = "11" ] && [ "$(date -u +%M)" -lt "5" ]; then
+              echo "mode=full" >> $GITHUB_OUTPUT
+            else
+              echo "mode=quick" >> $GITHUB_OUTPUT
+            fi
+          fi
+          echo "Selected mode: $(cat $GITHUB_OUTPUT | grep mode | cut -d= -f2)"
+
       - name: Run scraper
-        run: python scraper.py
+        run: python scraper.py ${{ steps.mode.outputs.mode }}
 
       - name: Commit and push results
         run: |
           git config user.name "SSL Scraper Bot"
           git config user.email "bot@ssl-finder.local"
           git add docs/
-          git diff --cached --quiet || git commit -m "Update opportunities - $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            MODE="${{ steps.mode.outputs.mode }}"
+            if [ "$MODE" = "quick" ]; then
+              git commit -m "🆕 New opportunities found - $(date -u '+%Y-%m-%d %H:%M UTC')"
+            else
+              git commit -m "🔄 Full scrape - $(date -u '+%Y-%m-%d %H:%M UTC')"
+            fi
+            git push
+          fi

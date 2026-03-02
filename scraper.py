@@ -1,12 +1,18 @@
 """
-SSL Finder Scraper v4
-Uses Playwright to navigate paginated listing, then fetches detail pages via HTTP.
-Combines browser-based listing extraction with fast HTTP detail scraping.
+SSL Finder Scraper v4.1
+Two modes:
+  full   - Scrape ALL opportunities (runs once daily in morning)
+  quick  - Check page 1 newest-first for NEW opportunities only (runs every 15 min)
+
+Usage:
+  python scraper.py full
+  python scraper.py quick
 """
 
 import asyncio
 import json
 import re
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -16,13 +22,14 @@ from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 
 BASE_URL = "https://montgomerycountymd.galaxydigital.com"
-# Use table view (list icon) sorted newest first for fastest extraction
 LISTING_URL = f"{BASE_URL}/need/?s=1&dir=DESC&orderby=need_id"
 SSL_LISTING_URL = f"{BASE_URL}/need/?s=1&need_init_id=2962&dir=DESC&orderby=need_id"
 DETAIL_URL = f"{BASE_URL}/need/detail/?need_id={{}}"
 OUTPUT_DIR = Path("docs")
 OUTPUT_FILE = OUTPUT_DIR / "opportunities.json"
-MAX_OPPORTUNITIES = 1000  # Set to 0 for unlimited
+KNOWN_IDS_FILE = OUTPUT_DIR / "known_ids.json"
+MAX_OPPORTUNITIES = 0  # 0 = unlimited for full mode
+QUICK_PAGES = 3  # How many pages to check in quick mode
 REQUEST_DELAY = 0.3
 
 HEADERS = {
@@ -77,10 +84,11 @@ def parse_address_block(lines):
     return full, city, zip_code
 
 
-# ── Phase 1: Collect all opportunity IDs from listing pages ──────
+# ── Phase 1: Collect opportunity IDs via Playwright ──────────────
 
-async def collect_all_ids(url, label="ALL"):
-    """Use Playwright to click through pages and collect all need_ids."""
+async def collect_ids(url, label="ALL", max_pages=0):
+    """Click through paginated listing and collect need_ids.
+    max_pages=0 means unlimited."""
     all_ids = []
     seen = set()
 
@@ -97,7 +105,7 @@ async def collect_all_ids(url, label="ALL"):
 
         page_num = 1
         while True:
-            # Extract all need_ids from current page
+            # Extract need_ids from current page
             ids_on_page = await page.evaluate("""
                 () => {
                     const links = document.querySelectorAll('a[href*="need_id="]');
@@ -117,37 +125,39 @@ async def collect_all_ids(url, label="ALL"):
                     all_ids.append(oid)
                     new_count += 1
 
-            if page_num % 5 == 0 or new_count == 0:
+            if page_num % 10 == 0 or new_count == 0:
                 print(f"    Page {page_num}: {new_count} new IDs (total: {len(all_ids)})")
 
             if new_count == 0:
                 print(f"    No new IDs on page {page_num}, stopping.")
                 break
 
-            if MAX_OPPORTUNITIES > 0 and len(all_ids) >= MAX_OPPORTUNITIES:
-                print(f"    Reached limit of {MAX_OPPORTUNITIES}")
+            if max_pages > 0 and page_num >= max_pages:
+                print(f"    Reached page limit of {max_pages}")
                 break
 
-            # Click "Next" page button
+            if MAX_OPPORTUNITIES > 0 and len(all_ids) >= MAX_OPPORTUNITIES:
+                print(f"    Reached opportunity limit of {MAX_OPPORTUNITIES}")
+                break
+
+            # Click next page
             try:
-                # Look for the ">" or "Next" or next page number
                 next_btn = page.locator('a:has-text(">")')
                 if await next_btn.count() > 0 and await next_btn.first.is_visible():
                     await next_btn.first.click()
                     await page.wait_for_timeout(2000)
                     page_num += 1
                 else:
-                    # Try clicking next page number directly
                     next_page = page.locator(f'a:has-text("{page_num + 1}")')
                     if await next_page.count() > 0:
                         await next_page.first.click()
                         await page.wait_for_timeout(2000)
                         page_num += 1
                     else:
-                        print(f"    No next button found after page {page_num}")
+                        print(f"    No next button after page {page_num}")
                         break
             except Exception as e:
-                print(f"    Pagination error on page {page_num}: {e}")
+                print(f"    Pagination error: {e}")
                 break
 
         await browser.close()
@@ -156,17 +166,16 @@ async def collect_all_ids(url, label="ALL"):
     return all_ids
 
 
-# ── Phase 2: Fetch detail pages via HTTP (fast) ─────────────────
+# ── Phase 2: Fetch detail page via HTTP ──────────────────────────
 
 def fetch_detail(opp_id):
-    """Fetch and parse a single detail page."""
     url = DETAIL_URL.format(opp_id)
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
     except Exception as e:
-        return {"error": str(e)}
+        return {"id": opp_id, "url": url, "error": str(e)}
 
     result = {"id": opp_id, "url": url}
 
@@ -228,7 +237,7 @@ def fetch_detail(opp_id):
         page_text
     )
     if time_matches:
-        hours = "; ".join(time_matches[:3])  # Cap at 3 time ranges
+        hours = "; ".join(time_matches[:3])
 
     if "ongoing" in page_text.lower() and not event_date:
         date_type = "ongoing"
@@ -237,7 +246,7 @@ def fetch_detail(opp_id):
     result["event_date"] = event_date
     result["hours"] = hours
 
-    # Details section (age, family friendly, etc.)
+    # Details section
     page_lower = page_text.lower()
     age_req = ""
     for header in soup.find_all(["h2", "h3"]):
@@ -278,16 +287,14 @@ def fetch_detail(opp_id):
             interests.append(cat)
     result["interests"] = interests
 
-    # SSL status
+    # SSL
     result["is_ssl"] = "mcps ssl" in page_lower or "student service learning" in page_lower
 
-    # Initiative title from breadcrumb
     init_title = ""
     breadcrumb = soup.find("ol") or soup.find(class_=re.compile(r"breadcrumb"))
     if breadcrumb:
         for a in breadcrumb.find_all("a"):
-            href = a.get("href", "")
-            if "init" in href:
+            if "init" in a.get("href", ""):
                 init_title = clean(a.get_text())
     result["initiative_title"] = init_title
 
@@ -311,7 +318,6 @@ def fetch_detail(opp_id):
     parts = [p for p in [contact_name, contact_email, contact_phone] if p]
     result["contact"] = " | ".join(parts)
 
-    # Teams & capacity
     result["allow_teams"] = "respond as group" in page_lower
     cap = 0
     cap_match = re.search(r'(\d+)\s*(?:volunteers?\s*needed|spots?\s*(?:left|available))', page_lower)
@@ -322,7 +328,7 @@ def fetch_detail(opp_id):
     return result
 
 
-# ── Phase 3: Normalize ───────────────────────────────────────────
+# ── Normalize ─────────────────────────────────────────────────────
 
 def normalize(detail):
     full_addr, city, zip_code = parse_address_block(detail.get("location_lines", []))
@@ -370,33 +376,26 @@ def normalize(detail):
     }
 
 
-# ── Main ──────────────────────────────────────────────────────────
+# ── FULL MODE ─────────────────────────────────────────────────────
 
-async def main():
-    print("=" * 60)
-    print("SSL Finder Scraper v4 (Playwright pagination + HTTP details)")
-    print(f"Run at: {datetime.now(timezone.utc).isoformat()}")
-    if MAX_OPPORTUNITIES > 0:
-        print(f"Limit: {MAX_OPPORTUNITIES} opportunities")
-    print("=" * 60)
+async def run_full():
+    """Full scrape: all pages, all opportunities."""
+    print("🔄 MODE: FULL SCRAPE")
 
-    # Phase 1: Collect IDs
-    all_ids = await collect_all_ids(LISTING_URL, "ALL")
+    # Collect ALL ids
+    all_ids = await collect_ids(LISTING_URL, "ALL", max_pages=0)
 
-    ssl_ids_list = await collect_all_ids(SSL_LISTING_URL, "SSL")
+    # Collect SSL ids to tag them
+    ssl_ids_list = await collect_ids(SSL_LISTING_URL, "SSL", max_pages=0)
     ssl_ids = set(ssl_ids_list)
-    print(f"\n🎓 {len(ssl_ids)} SSL-approved IDs identified")
+    print(f"\n🎓 {len(ssl_ids)} SSL-approved IDs")
 
-    # Deduplicate - use all_ids as primary, tag SSL
-    final_ids = list(dict.fromkeys(all_ids + ssl_ids_list))  # preserve order, dedup
-    if MAX_OPPORTUNITIES > 0:
-        final_ids = final_ids[:MAX_OPPORTUNITIES]
-
-    # Phase 2: Fetch details
+    # Merge and dedup
+    final_ids = list(dict.fromkeys(all_ids + ssl_ids_list))
     print(f"\n📄 Fetching {len(final_ids)} detail pages...")
+
     results = []
     errors = 0
-
     for i, oid in enumerate(final_ids):
         detail = fetch_detail(oid)
         if "error" in detail:
@@ -406,23 +405,112 @@ async def main():
                 detail["is_ssl"] = True
             results.append(normalize(detail))
 
-        if (i + 1) % 25 == 0 or (i + 1) == len(final_ids):
+        if (i + 1) % 50 == 0 or (i + 1) == len(final_ids):
             print(f"    Progress: {i + 1}/{len(final_ids)} ({errors} errors)")
         time.sleep(REQUEST_DELAY)
 
-    # Stats
+    # Save known IDs for quick mode
+    save_known_ids([r["id"] for r in results])
+
+    return results
+
+
+# ── QUICK MODE ────────────────────────────────────────────────────
+
+async def run_quick():
+    """Quick check: only first few pages newest-first, skip known IDs."""
+    print("⚡ MODE: QUICK CHECK (newest only)")
+
+    # Load known IDs
+    known_ids = load_known_ids()
+    print(f"   {len(known_ids)} previously known IDs")
+
+    # Check first few pages for new IDs
+    new_ids_list = await collect_ids(LISTING_URL, "NEW CHECK", max_pages=QUICK_PAGES)
+
+    # Filter to only truly new ones
+    new_ids = [oid for oid in new_ids_list if oid not in known_ids]
+
+    if not new_ids:
+        print("\n✅ No new opportunities found. Skipping detail fetch.")
+        return None  # Signal: no changes
+
+    print(f"\n🆕 Found {len(new_ids)} NEW opportunities!")
+
+    # Also quick-check SSL status for new ones
+    ssl_ids_list = await collect_ids(SSL_LISTING_URL, "SSL CHECK", max_pages=QUICK_PAGES)
+    ssl_ids = set(ssl_ids_list)
+
+    # Fetch details only for new ones
+    print(f"\n📄 Fetching {len(new_ids)} new detail pages...")
+    new_results = []
+    errors = 0
+    for i, oid in enumerate(new_ids):
+        detail = fetch_detail(oid)
+        if "error" in detail:
+            errors += 1
+        else:
+            if oid in ssl_ids:
+                detail["is_ssl"] = True
+            new_results.append(normalize(detail))
+
+        if (i + 1) % 10 == 0 or (i + 1) == len(new_ids):
+            print(f"    Progress: {i + 1}/{len(new_ids)} ({errors} errors)")
+        time.sleep(REQUEST_DELAY)
+
+    # Merge with existing data
+    existing = load_existing_opportunities()
+    existing_map = {o["id"]: o for o in existing}
+
+    for opp in new_results:
+        existing_map[opp["id"]] = opp
+
+    merged = list(existing_map.values())
+
+    # Update known IDs
+    save_known_ids([r["id"] for r in merged])
+
+    return merged
+
+
+# ── Data persistence helpers ──────────────────────────────────────
+
+def load_known_ids():
+    """Load set of previously seen opportunity IDs."""
+    if KNOWN_IDS_FILE.exists():
+        try:
+            data = json.loads(KNOWN_IDS_FILE.read_text())
+            return set(data.get("ids", []))
+        except Exception:
+            pass
+    return set()
+
+
+def save_known_ids(ids):
+    """Save known IDs for next quick-check run."""
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    KNOWN_IDS_FILE.write_text(json.dumps({
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "count": len(ids),
+        "ids": list(ids),
+    }, indent=2))
+
+
+def load_existing_opportunities():
+    """Load existing opportunities.json."""
+    if OUTPUT_FILE.exists():
+        try:
+            data = json.loads(OUTPUT_FILE.read_text())
+            return data.get("opportunities", [])
+        except Exception:
+            pass
+    return []
+
+
+def write_output(results):
+    """Write final output files."""
     ssl_count = sum(1 for o in results if o.get("isSSL"))
-    print(f"\n📊 Results:")
-    print(f"   Total: {len(results)}")
-    print(f"   SSL: {ssl_count}")
-    print(f"   Non-SSL: {len(results) - ssl_count}")
-    print(f"   Errors: {errors}")
 
-    for opp in results[:3]:
-        print(f"\n   [{opp['id']}] {opp['needtitle'][:60]}")
-        print(f"     Org: {opp['agencyname'][:40]} | City: {opp['needcity']} | SSL: {opp['isSSL']}")
-
-    # Write
     output = {
         "metadata": {
             "scraped_at": datetime.now(timezone.utc).isoformat(),
@@ -435,7 +523,6 @@ async def main():
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(json.dumps(output, indent=2, ensure_ascii=False))
-    print(f"\n💾 Wrote {len(results)} opportunities to {OUTPUT_FILE}")
 
     (OUTPUT_DIR / "index.html").write_text(
         f'<!DOCTYPE html><html><head><title>SSL Finder API</title></head>'
@@ -445,6 +532,44 @@ async def main():
         f'<p>{len(results)} total ({ssl_count} SSL-approved)</p>'
         f'</body></html>'
     )
+
+    return ssl_count
+
+
+# ── Main ──────────────────────────────────────────────────────────
+
+async def main():
+    mode = sys.argv[1] if len(sys.argv) > 1 else "full"
+    mode = mode.lower().strip()
+
+    print("=" * 60)
+    print(f"SSL Finder Scraper v4.1 — {mode.upper()} mode")
+    print(f"Run at: {datetime.now(timezone.utc).isoformat()}")
+    print("=" * 60)
+
+    if mode == "quick":
+        results = await run_quick()
+        if results is None:
+            print("\n💤 No changes. Exiting without commit.")
+            # Touch a file so the workflow knows no commit needed
+            OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+            (OUTPUT_DIR / ".last_check").write_text(datetime.now(timezone.utc).isoformat())
+            return
+    else:
+        results = await run_full()
+
+    ssl_count = write_output(results)
+
+    print(f"\n📊 Final results:")
+    print(f"   Total: {len(results)}")
+    print(f"   SSL: {ssl_count}")
+    print(f"   Non-SSL: {len(results) - ssl_count}")
+
+    for opp in results[:3]:
+        print(f"\n   [{opp['id']}] {opp['needtitle'][:60]}")
+        print(f"     Org: {opp['agencyname'][:40]} | City: {opp['needcity']} | SSL: {opp['isSSL']}")
+
+    print(f"\n💾 Wrote {len(results)} opportunities to {OUTPUT_FILE}")
     print("✅ Done!")
 
 
