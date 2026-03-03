@@ -2,11 +2,11 @@ name: Scrape SSL Opportunities
 
 on:
   schedule:
-    # FULL scrape: 6 AM ET daily (11:00 UTC)
-    - cron: '0 11 * * *'
-    # QUICK check: every 15 min from 9 AM to 9 PM ET (14:00 - 01:59 UTC)
-    - cron: '*/15 14-23 * * *'
-    - cron: '*/15 0-1 * * *'
+    # FULL scrape: 6 AM ET weekdays only (11:00 UTC, Mon-Fri)
+    - cron: '0 11 * * 1-5'
+    # QUICK check: every 30 min from 9 AM to 9 PM ET (14:00 - 01:59 UTC)
+    - cron: '*/30 14-23 * * *'
+    - cron: '*/30 0-1 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -81,5 +81,6 @@ jobs:
             else
               git commit -m "🔄 Full scrape - $(date -u '+%Y-%m-%d %H:%M UTC')"
             fi
+            git pull --rebase origin main
             git push
           fi
