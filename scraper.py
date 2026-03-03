@@ -28,7 +28,7 @@ DETAIL_URL = f"{BASE_URL}/need/detail/?need_id={{}}"
 OUTPUT_DIR = Path("docs")
 OUTPUT_FILE = OUTPUT_DIR / "opportunities.json"
 KNOWN_IDS_FILE = OUTPUT_DIR / "known_ids.json"
-MAX_OPPORTUNITIES = 0  # Set to 0 for unlimited
+MAX_OPPORTUNITIES = 1000000000  # Set to 0 for unlimited
 QUICK_PAGES = 3  # How many pages to check in quick mode
 REQUEST_DELAY = 0.3
 
