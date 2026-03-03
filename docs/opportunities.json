@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-03T11:27:59.528563+00:00",
+    "scraped_at": "2026-03-03T17:40:03.417801+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1042,
-    "ssl_count": 1042
+    "total_count": 1043,
+    "ssl_count": 1043
   },
   "opportunities": [
     {
@@ -34385,6 +34385,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1224777",
+      "needtitle": "Women's History Month (Female Volunteers NEEDED)",
+      "agencyname": "My Neighbor’s Keeper Alliance Inc.",
+      "needdetails": "Join My Neighbor's Keeper Alliance Inc. this Women’s History Month as we host a powerful STD & HIV Awareness Workshop for teens and young women. \nROLES NEEDED:\nEarn 3 SSL hours while building leadership skills, supporting your peers, and helping create a safe, empowering space for learning and growth!\n1-Event Operations & Logistics Team\nAssist with event setup, materials organization, activity support, and post-event cleanup. Volunteers must be dependable, punctual, and willing to help from start to finish.\n2- Youth Engagement & Participant Services Team\nWelcome participants, assist with check-in, support small group activities, and help maintain a safe, respectful environment during workshop sessions. Strong communication and professionalism required.\nMandatory Next steps:\n1- Fill out our SSL student interest form: \nhttps://forms.gle/EyRFGR8u83xfy968A\n2- Complete the following forms prior to signing up and participating in any event/activity:\nParent consent (completed by a parent/guardian): \nhttps://forms.gle/BBV2SJKkcZABocgE8\nStudent code of conduct: \nhttps://forms.gle/DRhWXe68sz5vpkA28\nemergency contact form: \nhttps://forms.gle/jTnG19YMw8cSExeQ7\nparent/student agreement: \nhttps://forms.gle/mruTiSLUNzsZsuGY7\nSIGNUP HERE\n: \nhttps://www.signupgenius.com/go/10C0B4CA8A72DA1FBCE9-62718388-level\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1224777",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1224777",
+      "needaddress": "1717 Pittsfield Lane\n Bowie, MD\n  20716",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Mar 8, 2026",
+      "needdate": "Mar 8, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "2pm-5pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Court Ordered, Environment",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
