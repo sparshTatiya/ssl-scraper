@@ -28,7 +28,7 @@ DETAIL_URL = f"{BASE_URL}/need/detail/?need_id={{}}"
 OUTPUT_DIR = Path("docs")
 OUTPUT_FILE = OUTPUT_DIR / "opportunities.json"
 KNOWN_IDS_FILE = OUTPUT_DIR / "known_ids.json"
-MAX_OPPORTUNITIES = 0  # 0 = unlimited for full mode
+MAX_OPPORTUNITIES = 100  # Set to 0 for unlimited
 QUICK_PAGES = 3  # How many pages to check in quick mode
 REQUEST_DELAY = 0.3
 
@@ -273,18 +273,28 @@ def fetch_detail(opp_id):
     result["is_outdoors"] = "is outdoors" in page_lower
     result["is_virtual"] = "virtual opportunity" in page_lower
 
-    # Interests
+    # Interests - look for them as list items near the bottom of the detail content
     interests = []
     known = [
         "Recreation / Sports", "Food Prep & Delivery", "Housing / Shelter",
-        "Events / Collections", "Collection Drive", "Court Ordered",
-        "Education / Mentoring", "Arts / Culture", "Professional Skills",
-        "Environment", "Health / Wellness", "Technology", "Animals",
-        "Community Building", "Advocacy",
+        "Events / Collections", "Education / Mentoring", "Arts / Culture",
+        "Professional Skills", "Environment", "Health / Wellness",
+        "Technology", "Animals", "Community Building", "Advocacy",
     ]
-    for cat in known:
-        if cat.lower() in page_lower:
-            interests.append(cat)
+    # Find interest items - they appear as standalone list items or links
+    # NOT in the nav menu, so we look specifically after the Location or Details section
+    interest_section = False
+    for li in soup.find_all("li"):
+        text = li.get_text().strip()
+        if text in known:
+            interests.append(text)
+    # Also check for items that are direct children of the main content
+    for el in soup.find_all(class_=re.compile(r"interest|category")):
+        text = el.get_text().strip()
+        if text in known and text not in interests:
+            interests.append(text)
+    # Remove "Court Ordered" - it appears in the nav menu on every page
+    interests = [i for i in interests if i != "Court Ordered"]
     result["interests"] = interests
 
     # SSL
