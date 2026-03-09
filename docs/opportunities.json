@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-09T14:45:36.616782+00:00",
+    "scraped_at": "2026-03-09T16:53:01.415486+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1079,
-    "ssl_count": 1079
+    "total_count": 1080,
+    "ssl_count": 1080
   },
   "opportunities": [
     {
@@ -35608,6 +35608,39 @@
       "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": true,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1225484",
+      "needtitle": "Glenmont Forest Neighbors Civic Association Board Member",
+      "agencyname": "Glenmont Forest Neighbors Civic Association (GFNCA)",
+      "needdetails": "Our Civic Association is seeking dedicated community members to serve as Volunteer Board Members in the Glenmont Forest Community. This is an opportunity to help shape the future of our neighborhood, strengthen community connections, and support initiatives that enhance the quality of life for residents. Board Members play an important leadership role in guiding the vision, priorities, and activities of the association. \nAbout the Board Member Role:\nBoard Members help provide direction, oversight, and support for the association’s work.\nResponsibilities may include:\nAttending and actively participating in board meetings\nContributing to strategic planning and goal setting\nSupporting neighborhood events and community initiatives\nRepresenting the interests and voices of residents\nCollaborating with fellow board members in a respectful and constructive manner\nAssisting with communication efforts (newsletters, social media, outreach)\nHelping to recruit and engage volunteers\nReviewing and supporting budget planning and responsible financial oversight\nIdentifying community concerns and helping develop solutions\nBuilding partnerships with local organizations, businesses, and stakeholders\nUpholding transparency, fairness, and ethical decision-making\nIdeal Board Members:\nCare deeply about the neighborhood and its future\nAre willing to listen, collaborate, and problem-solve\nCommunicate respectfully and effectively\nCan think strategically while also supporting practical tasks\nValue inclusivity and community engagement\nAre dependable and follow through on commitments\nWhy Serve on the Board?\nHelp guide neighborhood improvements\nStrengthen community relationships\nDevelop leadership and collaboration skills\nMake a meaningful local impact\nBe part of positive change in your community\nBoard service is collaborative and community-focused. \nMembers work together to create a welcoming, inclusive, and proactive \nNo prior board experience is required — just a willingness to participate, learn, and contribute..",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1225484",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1225484",
+      "needaddress": "2603 Weisman Rd.\n Wheaton, MD\n  20902",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "Volunteers should be between the ages of 18 and 99.",
+      "minAge": 18,
+      "maxAge": 99,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Jim Epstein | glenmontforestnca@gmail.com",
+      "interests": "Education / Mentoring, Environment, Events / Collections, Professional Skills, Technology",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
