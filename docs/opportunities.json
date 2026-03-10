@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-10T18:40:25.394699+00:00",
+    "scraped_at": "2026-03-10T19:35:09.929270+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1085,
-    "ssl_count": 1085
+    "total_count": 1086,
+    "ssl_count": 1086
   },
   "opportunities": [
     {
@@ -35805,6 +35805,39 @@
       "isSSL": true,
       "isFamilyFriendly": false,
       "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1225485",
+      "needtitle": "Garden Steward Volunteer Opportunity in Glenmont",
+      "agencyname": "Glenmont Forest Neighbors Civic Association (GFNCA)",
+      "needdetails": "Become a Serenity Community Gardens Steward\nThe Serenity Community Gardens is seeking volunteers who would like to steward a garden plot(s) to help feed themselves, their family, and our community.\nThis is a hands-on opportunity to grow food, build relationships with neighbors, and care for our shared environment. Garden Stewards help cultivate a thriving, welcoming space where food and knowledge are shared.\nAbout the Garden Steward Role\nGarden Stewards play an active part in growing and maintaining the garden.\nThis role involves:\nPlanting vegetables, herbs, perennials, and native plants\nWatering, pruning, cultivating, and harvesting crops\nRemoving invasive plants\nWeeding and maintaining healthy garden beds\nBending, standing, lifting, and working outdoors\nKeeping shared spaces clean and organized\nUsing garden tools responsibly and returning them after use\nPicking up after yourself and caring for common areas\nCollaborating and working respectfully with other volunteers\nSharing harvested food with family, neighbors, or the community\nWeighing and recording harvested produce to support future grant funding\nInforming others if issues arise that need attention\nParticipating in learning, teaching, and environmental stewardship\nThis is a shared community space rooted in cooperation, care, and mutual support.\nIdeal volunteers:\nAre excited to grow food and learn alongside others\nAre comfortable with outdoor physical activity\nValue collaboration and community connection\nAre willing to help maintain a clean and respectful shared space\nUnderstand the importance of tracking harvest totals for reporting purposes\nThis role is not for SSL hours, unless for a specific event\nIn the case that it is for a specific event and students are able to earn SSL hours they will be directly supervised by adult representatives of GFNCA in a public space\nWhether you are an experienced gardener or just getting started, you are welcome here.\nWhy Volunteer?\nGrow fresh, healthy food\nConnect with neighbors\nLearn new gardening skills\nContribute to local food access\nCare for the environment\nShare in the harvest and the experience\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1225485",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1225485",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Jim Epstein | glenmontforestnca@gmail.com",
+      "interests": "Environment, Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
