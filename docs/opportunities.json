@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-10T19:35:09.929270+00:00",
+    "scraped_at": "2026-03-10T20:28:09.658230+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1086,
-    "ssl_count": 1086
+    "total_count": 1087,
+    "ssl_count": 1087
   },
   "opportunities": [
     {
@@ -35833,6 +35833,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "Jim Epstein | glenmontforestnca@gmail.com",
       "interests": "Environment, Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1230044",
+      "needtitle": "PuPuP Dog Adoption Events",
+      "agencyname": "Home At Last Sanctuary, Inc.",
+      "needdetails": "Starting in April Home At Last Sanctuary will be holding PuPuP Dog Adoption events around Rockville MD.  \nWe will be looking for experienced dog handlers, chaperones, parking attendants, trash detail picking up everything and anything left behind at the end of this event.\nNo minor children can be dog handlers.  This will not earn SSL credits.\nTo volunteer click on link below.  You will have to create or use a logon ID to read, and complete a volunteer application ad agree to the release form. \nhttps://hals.rescuegroups.org/forms/form?formid=7307&requirelogin=Yes\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1230044",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1230044",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "Volunteers should be between the ages of 13 and 99.",
+      "minAge": 13,
+      "maxAge": 99,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Hal Horenberg | hal@homeatlastsanctuary.org",
+      "interests": "Animals",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
