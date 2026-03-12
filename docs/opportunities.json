@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-12T18:45:23.923155+00:00",
+    "scraped_at": "2026-03-12T19:39:37.924871+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1122,
-    "ssl_count": 1122
+    "total_count": 1123,
+    "ssl_count": 1123
   },
   "opportunities": [
     {
@@ -37021,6 +37021,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1231067",
+      "needtitle": "Coach for Miracle League Baseball",
+      "agencyname": "Miracle League Montgomery County",
+      "needdetails": "Duties:\n·\nGame day on-field supervisor of teams, players,\n buddies, adult volunteers, parents\n·\nKeep kids safe while they are playing; encourage\n team spirit and player satisfaction\n·\nHelp keep the playing field activities moving\n·\nHelp players learn some basic baseball skills\n (running bases, throwing, catching, fielding, batting, team bonding) \n·\nAttend all Spring & Fall Season games\nWe need 2 coaches for Saturday and 2 coaches on Sunday. \nQualifications:\n·\nAbility to work with special needs children\n·\nStrong knowledge of baseball\n·\nGood communications skills\n·\nSome coaching experience preferred\n·\nAt least college age preferred\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1231067",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1231067",
+      "needaddress": "17950 Germantown Park Drive \n Germantown, MD\n  20874",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Recreation / Sports",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
