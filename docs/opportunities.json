@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-16T18:14:21.498406+00:00",
+    "scraped_at": "2026-03-19T15:49:20.753638+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1103,
-    "ssl_count": 1103
+    "total_count": 1104,
+    "ssl_count": 1104
   },
   "opportunities": [
     {
@@ -36399,6 +36399,39 @@
       "isSSL": true,
       "isFamilyFriendly": false,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1235204",
+      "needtitle": "Speed Dating Assistance for The National Federation Of The Blind",
+      "agencyname": "Just Because We Care Inc.",
+      "needdetails": "On April 18th, Time to be determined\n Just Because We Care Inc in partnership with The National Federation Of The Blind in their Speed Dating Event.  Volunteers are FREE.\nProviding support and using this experience as a learning tool to understand HOW to engage with the visually impaired community. \n**Please be 30 mins early or more for set up. 15 minutes early is cutting it close to the start of the event. Please wear black pants, white shirts and black SNEAKERS/TENNIS SHOES. We will be on our feet, casual/dress to impress wear**\nFlyer below. Audio clip for the event attached \nThe role Just Because We Care Inc will play:\n1. We will assist with setup and clean up\n2. We will assist with seating participants\n3. Placing food and drinks IN FRONT of participants and announcing what is on their plate with kindness, love and grace.\n4. We will assist participants within their compacity.  Walking them to and from their transportation. \n5. We will engage with participants with respect and dignity all while making sure participants are safe in the space we are in while they enjoy meeting their new mates.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1235204",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1235204",
+      "needaddress": "900 G street NE\n Washington DC, DC\n  20002",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "Volunteers should be between the ages of 21 and 99.",
+      "minAge": 21,
+      "maxAge": 99,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Chelsea Hughes | 2024239485",
+      "interests": "Events / Collections, Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
