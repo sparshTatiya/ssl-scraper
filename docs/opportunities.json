@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-23T15:56:13.556872+00:00",
+    "scraped_at": "2026-03-23T17:48:10.320048+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1130,
-    "ssl_count": 1130
+    "total_count": 1131,
+    "ssl_count": 1131
   },
   "opportunities": [
     {
@@ -37290,6 +37290,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1236231",
+      "needtitle": "4/16 Material & Lumber Unload Post-Event",
+      "agencyname": "Sleep in Heavenly Peace (Montgomery Village Chapter)",
+      "needdetails": "Are you looking for a hands-on way to give back but with limited availability? Join us as we\n Unload\nMaterial into the Transport vehicle \nand help move essential materials for an upcoming bed build event. \nTo Participate: \nClick Here to Register on our Website\nAbout Us: Sleep in Heavenly Peace (SHP):\nSleep in Heavenly Peace\n is a volunteer-led nonprofit organization committed to building and delivering beds to children in need — because every child deserves a safe, comfortable place to sleep. Our local Montgomery chapter works year-round with volunteers and community partners to bring comfort and dignity to children across our area. We help children who have been sleeping on the floor, on couches, or sharing overcrowded sleeping spaces.\nThe Opportunity – Material Loading Volunteer:\nWe’re gearing up for a remote \nSleep in Heavenly Peace\n bed build, and we need a few strong, reliable volunteers to help us load the SHP truck with equipment and supplies.\nWhat You’ll Be Doing:\nLifting and unloading supply bins, tools, and equipment\nHelping move materials from SHP truck to storage\nWorking as a small team to unload from our off-site build event\nWho We’re Looking For:\nVolunteers comfortable with lifting/moving items\nPhysically active individuals\nDependable, team-oriented helpers\nIf you enjoy hands-on work and want to help us get ready to serve more kids in need of beds, we’d love to have you join us!\nWhy It Matters:\nEvery load of lumber you transport becomes the frame of a bunk bed…\nEvery bunk bed becomes a safe, warm place for a child to rest…\nAnd every child deserves that kind of peace.\nYour one afternoon of service each month makes a direct, hands-on impact — helping us turn raw materials into restored hope for families in need.\nCheck out our work from Build to Delivery\nFollow Us on \nFacebook\n and \nInstagram",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1236231",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1236231",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Apr 16, 2026",
+      "needdate": "Apr 16, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "5:00pm-6:00pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Housing / Shelter",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
