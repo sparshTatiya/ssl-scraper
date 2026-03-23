@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-23T14:52:25.131451+00:00",
+    "scraped_at": "2026-03-23T15:56:13.556872+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1129,
-    "ssl_count": 1129
+    "total_count": 1130,
+    "ssl_count": 1130
   },
   "opportunities": [
     {
@@ -37252,6 +37252,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Environment",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1237132",
+      "needtitle": "Clean Up Trash and Recycling in the Glenmont Forest Neighborhood-Recurring Shifts",
+      "agencyname": "Glenmont Forest Neighbors Civic Association (GFNCA)",
+      "needdetails": "Clean up trash with the with Glenmont Forest Neighbors Civic Association (GFNCA)\nJoin the Glenmont Forest Neighbors Civic Association \non the second Sunday of each month from 1:00 PM – 3:00 PM \nto help clean up trash and recycling in the Glenmont Forest neighborhood and surrounding areas. \nYou are welcome to participate as often as you’d like — monthly attendance is encouraged but not required. \nWhy It Matters\nDuring rainstorms, discarded trash and recycling wash into storm drains and flow into rivers, lakes, and oceans. By removing litter from our neighborhood, we help prevent pollution and protect our waterways — even our drinking water. Together, we can make a visible difference in our community and environment. \nMeeting Location: Little Library at Lindell St. & Judson Rd. Silver Spring, MD\nWhat’s Provided: \nTrash and recycling bags\nLitter pickers\nGloves\nWhat to Bring & Wear: \nPlease wear: \nClosed-toe shoes\nLong pants\nLong-sleeve shirt\nSunscreen\nPlease bring: \nA reusable water bottle\nYour SSL form (if applicable)\nStudent Service Learning (SSL) SSL hours are available for students.\nStudents under 14 must attend with a parent or guardian.\nStudents ages 14–17 attending without a parent must bring a signed minor release form.\nParticipation is at the discretion of the student’s parent/guardian.\nService activities will be directly supervised by adult representatives of GFNCA in a public space\nCome help keep our neighborhood clean and protect our shared environment.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1237132",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1237132",
+      "needaddress": "Lindell St. and Judson Rd. \n Little Library area\n Wheaton, MD\n  20902",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "1:00 PM – 3:00 PM; 1:00pmto 3:00pm; 1:00pmto 3:00pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Meghan LaPrairie | meghan.lap@gmail.com",
+      "interests": "Environment, Animals, Education / Mentoring",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
