@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-26T18:58:49.676098+00:00",
+    "scraped_at": "2026-03-26T21:27:15.763211+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1153,
-    "ssl_count": 1153
+    "total_count": 1154,
+    "ssl_count": 1154
   },
   "opportunities": [
     {
@@ -38044,6 +38044,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "Andrian Goodum | thecapriagroup@gmail.com | 3012047492",
       "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1239551",
+      "needtitle": "High School Student Volunteers Needed for Parent Events at Nourish and Flourish Event",
+      "agencyname": "MCPS Division of School Leadership and Improvement",
+      "needdetails": "Global Community Health Thriving is in need of for 4 students ages 14+ to help\nwith our upcoming Nourish and Flourish event! \nStudents will be ushering and recording data during the event. \nHours are 9AM - 1PM on Saturday, April 11th, at Bohrer Park - 506 S. Frederick Ave, Gaithersburg, MD 20877.\nVolunteer Sign Up form:  \nhttps://forms.gle/mVXY2DqkaKZvGvCK7\nQuestions? Contact Khadija Msumi (GoCoHealth\n Program Coordinator) at \nmkhadija@gocohealth.org\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1239551",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1239551",
+      "needaddress": "Bohrer Park\n 506 S Frederick Ave\n Gaithersburg, MD\n  20877",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Apr 11, 2026",
+      "needdate": "Apr 11, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "9am - 1pm; 9AM - 1PM",
+      "needagerequirements": "Volunteers should be between the ages of 14 and 18.",
+      "minAge": 14,
+      "maxAge": 18,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Volunteers should be between the ages of 14 and 18.",
+      "interests": "Education / Mentoring",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
