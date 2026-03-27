@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-03-26T21:27:15.763211+00:00",
+    "scraped_at": "2026-03-27T15:47:28.087658+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1154,
-    "ssl_count": 1154
+    "total_count": 1155,
+    "ssl_count": 1155
   },
   "opportunities": [
     {
@@ -38081,6 +38081,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1239706",
+      "needtitle": "Help at Rockville Science Day Booth for Science is Elemental",
+      "agencyname": "Science is Elemental, Inc.",
+      "needdetails": "Science is Elemental has a booth at the Rockville Science Day, Sunday April 26th, from noon to 5 pm. I could use teenage or older volunteers to help me at the booth. We will be demonstrating the Science of Swimming workshop (no swimsuits or swimming pool required!). Shifts can be as short as 1 hour at a time. \nIdeal for high school or college students interested in science, education, or just helping out for an afternoon!\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1239706",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1239706",
+      "needaddress": "51 Mannakee St.\n Rockville, MD\n  20850",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Apr 26, 2026",
+      "needdate": "Apr 26, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Ann Miller | ann.miller@scienceiselemental.org | 3018739342",
+      "interests": "Education / Mentoring, Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
