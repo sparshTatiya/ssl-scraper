@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-02T15:56:11.403441+00:00",
+    "scraped_at": "2026-04-05T14:31:19.902939+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1163,
-    "ssl_count": 1163
+    "total_count": 1164,
+    "ssl_count": 1164
   },
   "opportunities": [
     {
@@ -38379,6 +38379,39 @@
       "isSSL": true,
       "isFamilyFriendly": false,
       "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1237376",
+      "needtitle": "Volunteers Needed: MCDOT's 3rd Annual Safety Day",
+      "agencyname": "Department Of Transportation - Pedestrian And Bicycle Safety Programs",
+      "needdetails": "",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1237376",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1237376",
+      "needaddress": "850 Hungerford Drive \n Rockville , MD\n  20878",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "9am-4pm",
+      "needagerequirements": "Volunteers should be between the ages of 14 and 30.",
+      "minAge": 14,
+      "maxAge": 30,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring, Events / Collections, Recreation / Sports, Technology",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
