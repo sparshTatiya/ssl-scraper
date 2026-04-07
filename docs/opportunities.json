@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-07T17:54:33.264498+00:00",
+    "scraped_at": "2026-04-07T19:56:23.123607+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1184,
-    "ssl_count": 1184
+    "total_count": 1185,
+    "ssl_count": 1185
   },
   "opportunities": [
     {
@@ -39067,6 +39067,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Professional Skills",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": true,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1245422",
+      "needtitle": "Community Food Drive by CMBA with Manna Food Center",
+      "agencyname": "Central Maryland Bengal Association",
+      "needdetails": "Central Maryland Bengal Association (CMBA) is hosting a\nCommunity Food Drive\nin partnership with Manna Food Center, running from\nMarch 28 through April 15\n.\nThis initiative is an opportunity for all of us to come together and support families in our local community who are facing food insecurity.\nEven a small contribution can go a long way.\nMost Needed Items Include:\nGrains: oatmeal, brown rice, pasta\nProtein: canned tuna, beans, nut butter\nFruits & vegetables: canned vegetables and fruits\nEssentials: milk boxes, cooking oil, spices\nDrop-off Locations: \nRockville, Clarksburg, and Frederick\nHow to Participate:\nIf you would like to donate, please email us at\ncmba.parbon@gmail.com\nwith:\nYour full name\nPhone number\nPreferred drop-off location\nA member of our team will reach out to coordinate the details.\nThis is more than a donation—it is a reflection of who we are as a community. Together, we can make a meaningful impact. We encourage you to involve your families, especially children, and help instill the value of giving back. \nPlease share with your friends, family, neighbors, and your community notice boards. \nThank you for your continued support and generosity.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1245422",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1245422",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
