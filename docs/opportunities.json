@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-07T20:41:36.211333+00:00",
+    "scraped_at": "2026-04-09T18:57:50.937410+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1187,
-    "ssl_count": 1187
+    "total_count": 1188,
+    "ssl_count": 1188
   },
   "opportunities": [
     {
@@ -39171,6 +39171,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1247491",
+      "needtitle": "Adopt a Road - SSL Event",
+      "agencyname": "The Clarksburg Yard",
+      "needdetails": "beccasoares@clarksburgchurch.com\nClarksburg Yard has adopted a Gateway Center Drive! \nThis is a 2 -miles stretch that runs from Shawnee Lane to Clarksburg Road and is parallel to Frederick Road behind our property. Every other month, we will be organizing a group of Middle and High School Students to clean up trash along the road. \nOur mission is to participate in a community activity by keeping county-owned roadsides litter free. This opportunity is held outdoors and near the roads. We are asking all volunteers to read and have an adult sign the consent form prior to the event. \n*\nMinors will NOT be able to participate without completed \nconsent form\n.*\n ----- \nWhat will I be doing?\n You will meet at 10am at the Clarksburg Church and walk over to the designated area. You will be equipped with gloves, hefty trash bags, and pick-up tools. We will collect litter from the designated area and properly dispose of it. \n Clarksburg Church 22820 Frederick Rd Clarksburg Church, 20871 \nNOTE: You will be working outside, so please bring water bottles. Additionally, we are asking all volunteers to wear bright colored clothing and comfortable, closed-toed shoes. \n*** If you are interested in volunteering, click \nhere\n to register***\nAre there other opportunities?\nIf you are interested in signing up for future Clarksburg Yard Adopt-A-Road Opportunities, please check out our website for more information. You can register for other Adopt-a-Road SSL opportunities. The following opportunities will be open for registration a month prior to the event.\n- For inquiries, contact Rebecca at \nbeccasoares@clarksburgchurch.com\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1247491",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1247491",
+      "needaddress": "22820 Frederick Rd\n Clarksburg\n Maryland, MD\n  20871",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Apr 18, 2026",
+      "needdate": "Apr 18, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "Volunteers should be between the ages of 11 and 17.",
+      "minAge": 11,
+      "maxAge": 17,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Rebecca Soares | beccasoares@clarkburgchurch.com",
+      "interests": "Environment",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
