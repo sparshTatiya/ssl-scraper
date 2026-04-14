@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-13T21:26:05.229948+00:00",
+    "scraped_at": "2026-04-14T16:40:26.079098+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1208,
-    "ssl_count": 1208
+    "total_count": 1209,
+    "ssl_count": 1209
   },
   "opportunities": [
     {
@@ -39863,6 +39863,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": true,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1251044",
+      "needtitle": "MCPS Family Forum on Mental Health & Substance Use Prevention - Saturday, April 18, 2026, 1:00 PM -4:00 PM",
+      "agencyname": "MCPS Division of School Leadership and Improvement",
+      "needdetails": "MCPS Family Forum on Mental Health & Substance Use Prevention\nApril 18, 2026\n(1:00 p.m. - 4:00 p.m.)\nMontgomery County Public Schools (MCPS), in partnership with the Montgomery County Department of Health\nand Human Services and Montgomery Goes Purple, will host a family forum on mental health and substance\nuse prevention to provide expertise and resources to students, staff, and families regarding the dangers of\nsubstance use. \nAttendees will learn about the dangers of fentanyl, alcohol, and other substances; information to\nkeep students safe; school and community-based substance use prevention; and harm reduction and treatment\ninitiatives. \nThis event will also include Narcan training\nand demonstration, along with distribution of Narcan. \nStudents may earn SSL hours for attending and learning this important information so that they can help to spread awareness about the dangers and prevalence of fentanyl and participate in Narcan training to support in the case of an emergency.\nStudents, please \nDO \nNOT\n respond to this opportunity. All students may participate and earn SSL hours by attending and participating:\nDate:  Saturday, April 18, 2026\nTime:  1:00 p.m. - 4:00 p.m.\nLocation:  Blair HS (51 University Blvd E, Silver Spring, MD 20901)\nRSVP here",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1251044",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1251044",
+      "needaddress": "Blair HS\n 51 University Blvd E\n Silver Spring, MD\n  20901",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Apr 18, 2026",
+      "needdate": "Apr 18, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "1:00 PM -4:00 PM; 1:00 PM -4:00 PM; 1:00 PM -4:00 PM",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
