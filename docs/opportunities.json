@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-16T18:05:19.992694+00:00",
+    "scraped_at": "2026-04-16T19:43:54.429804+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1232,
-    "ssl_count": 1232
+    "total_count": 1233,
+    "ssl_count": 1233
   },
   "opportunities": [
     {
@@ -40655,6 +40655,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": true,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1251494",
+      "needtitle": "Board of Director Member",
+      "agencyname": "Miracle League Montgomery County",
+      "needdetails": "The Miracle League of Montgomery county is seeking qualified members to join its Board of Directors. Our Board of Directors meet virtually on a bi-monthly basis for approximately 90 minutes. Our typical meeting agenda covers: review of baseball operations, fundraising initiatives, financial reports, recruiting of players, coaches and volunteers, various administrative tasks and issues. We are seeking Board members who also can be active volunteers for our mission-as game day volunteers, fundraisers, recruiters, event ambassadors, ect. Prospective Board members should have some experience with youth sports, a sensitivity and preferably some experience with children having physical and/or cognitive disabilities, and sufficient time to devote to their duties as a Board member. Our field is located in Germantown, MD and games are played on Saturday and Sunday in the Spring and Fall season (about 8 - 10 games each)",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1251494",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1251494",
+      "needaddress": "17950 Germantown Park Drive\n Germantown, MD\n  20874",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Robby Brewer | rgbrewer@lerchearly.com | 301-657-0165",
+      "interests": "Professional Skills, Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
