@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-20T16:40:10.426934+00:00",
+    "scraped_at": "2026-04-20T21:41:38.604166+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1252,
-    "ssl_count": 1252
+    "total_count": 1253,
+    "ssl_count": 1253
   },
   "opportunities": [
     {
@@ -41310,6 +41310,39 @@
       "needallowteams": false,
       "needvolunteersneeded": 0,
       "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1251888",
+      "needtitle": "Latino Youth Development Program: After School Tutors",
+      "agencyname": "City of Rockville: Housing and Community Development",
+      "needdetails": "NOTE: In order to register for an opportunity, you must click the \"Respond\" button again after you submit any missing qualifications. You are only considered registered once the \"Respond\" button changes to \"Unregister,\" and once you receive a confirmation email thanking you for your interest.\nLooking for ways to shape the next generation of students and make a difference in your community? The City of Rockville's \nLatino Youth Development Program (LYDP)\n hosts a free after school program at \nElwood Smith Community Center\n and is looking for tutors, retired educators, or passionate professionals to volunteer for 1-2 hours per week.\nVolunteers will work in small groups or perform one-on-one tutoring with middle and/or high school students. You will support them with homework on subjects such as math, science, reading, and others. This is a great way to build relationships with the students while also helping them excel in school.\nVolunteers with educator or tutor experience are preferred. Volunteers fluent in Spanish are preferred, but not required, to help a few students who primarily speak Spanish.\nThe volunteer shifts are 4:30-5:30 p.m. on Tuesdays with middle school students, and 4-5 p.m. on Wednesdays with high school students. Volunteer availability can be discussed.\nThis will be a meaningful, rewarding experience that will help our students excel in school, and in turn support them in working toward graduation and beyond!\nPlease complete the \nTutor Interest Form\n, in addition to responding to the opportunity through this website.\nFor questions and serious inquires, please reach out to Alexandra Moran at \namoran@rockvillemd.gov\n or call/text \n240-642-8119\n.\nThis opportunity is available for student volunteers to earn SSL hours. Student participation in this service project is at the discretion of the student’s parent/guardian and must be completed outside of school hours. Parents/guardians should contact the nonprofit organization directly with any questions and/or concerns. The nonprofit is responsible for maintaining student safety and privacy at any time the student is interacting with the nonprofit and its clients. The nonprofit will determine the number of SSL hours awarded based on the evidence submitted. For SSL hours to be added to a student’s record, students must submit MCPS Form 560-51, Student Service Learning Activity Verification Form, to the school SSL coordinator by the due dates on the form (no later than the last Friday in May), which can be found at \nbit.ly/SSLReflection\n. Students will need to complete sections 1 and 3 of MCPS Form 560-51 in full. In lieu of section 2 of MCPS Form 560-51, students should attach the \n“SSL Hour Form”\n completed and provided to the student by the City of Rockville supervisor.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1251888",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1251888",
+      "needaddress": "601 Harrington Road\n Rockville, MD\n  20852",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "4:30pmto 5:30pm; 4:00pmto 5:00pm; 4:30pmto 5:30pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Alexandra Moran | amoran@rockvillemd.gov | 240-642-8119",
       "interests": "",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
