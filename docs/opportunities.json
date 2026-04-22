@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-21T01:45:38.182162+00:00",
+    "scraped_at": "2026-04-22T17:56:43.470774+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1261,
-    "ssl_count": 1261
+    "total_count": 1262,
+    "ssl_count": 1262
   },
   "opportunities": [
     {
@@ -41608,6 +41608,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Arts / Culture",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1254438",
+      "needtitle": "The UpCounty Hub- Diaper Distribution/Pantry Volunteers Needed May 2026",
+      "agencyname": "The UpCounty Hub",
+      "needdetails": "The UpCounty Hub is serving families in need. We provide fresh produce, shelf stable foods, emergency and hygiene items, activity kits for kids and social services for the families that we serve.\nWe are in need of volunteers to assist in our monthly diaper distribution/pantry at The Upcounty Hub. Volunteers' duties vary from handing out diapers to families with appointments to assisting in the food pantry. \nWe have added a Tuesday shift (am and pm) to assist our Social Services Team with clients using the pantry. Diapers will NOT be distributed on Tuesday, this is a pantry only volunteer opportunity.\n Please arrive five to ten minutes prior to start time to check in.\nPlease reach out to Janice @ joconnor\n@theupcountyhub.org\n with any questions about our volunteer opportunities and/or safety measures. \n* \nIf court mandate hours are needed, you must contact Janice O'Connor directly prior to volunteering.  No hours will be given unless previously approved.  Contact Janice @ joconnor\n@theupcountyhub.org\n for more information or with any questions.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1254438",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1254438",
+      "needaddress": "12900 Middlebrook Rd\n suite 1100\n GERMANTOWN, MD\n  20874",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "9:00amto 12:30pm; 1:30pmto 4:00pm; 9:00amto 12:30pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Events / Collections, Food Prep & Delivery",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
