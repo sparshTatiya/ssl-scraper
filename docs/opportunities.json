@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-22T17:56:43.470774+00:00",
+    "scraped_at": "2026-04-22T19:08:41.670139+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1262,
-    "ssl_count": 1262
+    "total_count": 1263,
+    "ssl_count": 1263
   },
   "opportunities": [
     {
@@ -41645,6 +41645,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1254419",
+      "needtitle": "The Upcounty Hub- Food Warehouse Support- May 2026",
+      "agencyname": "The UpCounty Hub",
+      "needdetails": "Thank you SO much for volunteering to help pack food boxes and produce bags for our neighbors in need!\nALL VOLUNTEERS must:\nBe 17 years or older and able to work independently\nBe able to \nlift up to 25 lbs\nCome \ndressed appropriately but comfortably\n — long shorts or pants, a t-shirt or long sleeve shirt/sweatshirt, and \nclosed-toe shoes are required\n. Volunteers \nnot wearing closed-toe shoes will be sent home\nPlease bring \nwater\n to stay hydrated\nVolunteer duties\n include, but are not limited to:\nPacking food\nOrganizing distribution materials\nClean-up tasks\nPlease note: These duties may involve bending, standing for extended periods, and lifting up to 25 lbs. Volunteers must be able to comfortably meet these physical requirements.\n*If you are seeking court-mandated hours\n, you \nmust contact Janice O'Connor\n directly \nbefore\n signing up or volunteering. No hours will be verified without prior approval. Contact Janice at:\njoconnor@theupcountyhub.org\n.\nThe \nUpcounty HUB\n is located inside the \nUpcounty Regional Services Center\n at:\n12900 Middlebrook Rd, Germantown, MD 20874\nPlease enter through the \nfront entrance\n of the building. The HUB is to the \nright of the front desk in Suite 1100\n.\nAll volunteers are required to \nsign in at the volunteer kiosk before starting their shift\n.\nIf you need to cancel your volunteer shift\n, please remove your name from that shift via this website or with an email to Janice at \njoconnor@theupcountyhub.org\n. \nWe are a volunteer-driven organization and rely heavily on your commitment to help feed local families each week.\nTHANK YOU FOR MAKING A DIFFERENCE IN OUR COMMUNITY!\nStudent participation in this service project is at the discretion of the student’s parent/guardian and must be completed outside of school hours. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1254419",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1254419",
+      "needaddress": "12900 Middlebrook Road\n Germantown, MD\n  20874",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "10:00amto 1:00pm; 10:00amto 1:00pm; 10:00amto 1:00pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Food Prep & Delivery, Events / Collections, Professional Skills",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
