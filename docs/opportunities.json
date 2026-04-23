@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-22T20:29:53.783087+00:00",
+    "scraped_at": "2026-04-23T15:48:12.031991+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1272,
-    "ssl_count": 1272
+    "total_count": 1273,
+    "ssl_count": 1273
   },
   "opportunities": [
     {
@@ -41976,6 +41976,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1254427",
+      "needtitle": "The UpCounty Hub - Delivery Drivers Needed May 2026",
+      "agencyname": "The UpCounty Hub",
+      "needdetails": "Thank you for volunteering with the UpCounty Hub! \nThe UpCounty Hub provides fresh produce, shelf stable foods, hygiene items, and some social services for the families that we serve in our community. \nDrivers are needed on Thursdays to deliver food packages to the doorstep of vulnerable Upcounty families, that are not able to drive to one of our weekly distribution sites. Drivers should be able to lift up to 25 lbs.  Addresses of clients will be provided upon arrival at the Hub on delivery day. You will be delivering food directly to clients. \nPlease arrive at the UpCounty Hub between 10:45am-11:00am on Thursday and pull around to the right side of the building to the loading dock. PLEASE DO NOT PARK IN HANDICAP SPOTS!  If possible please\n try to register for this shift by the Tuesday before\n so we can assign boxes to the correct number of cars.\nPlease reach out to \nJoconnor\n@theupcountyhub.org\n with any questions about our volunteer opportunities and/or safety measures. \nWe could not reach our weekly distribution goals without our volunteers!  Each volunteer slot is important to our mission. If you are unable to make it for the shift you signed up for, please remove your name from that shift via this website, or contact janice at \njoconnor@theupcountyhub.org\n or at 240-910-9013. \nNot approved for MCPS SSL hours.\nIf court mandate hours are needed, you must contact Janice O'Connor directly prior to volunteering.  No hours will be given unless previously approved.  Contact Janice at \njoconnor@theupcountyhub.org\n for more information or with any questions. \nNew volunteers please sign this waiver and send to \nJanice\nPlease see attached for more specific instruction\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1254427",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1254427",
+      "needaddress": "12900 Middlebrook Rd\n Germantown, MD\n  20874",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "10:45am-11:00am; 11:00amto 1:00pm; 11:00amto 1:00pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Food Prep & Delivery",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
