@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-27T12:18:40.790547+00:00",
+    "scraped_at": "2026-04-27T18:47:50.924024+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1274,
-    "ssl_count": 1274
+    "total_count": 1275,
+    "ssl_count": 1275
   },
   "opportunities": [
     {
@@ -42037,6 +42037,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "Tina_C_Leone@mcpsmd.org",
       "interests": "Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1252148",
+      "needtitle": "Civic Center Puppet Show Craft Assistants",
+      "agencyname": "City of Rockville: Recreation and Parks (Civic Center Complex)",
+      "needdetails": "NOTE: In order to register for an opportunity, you must click the \"Respond\" button again after you submit any missing qualifications. You are only considered registered once the \"Respond\" button changes to \"Unregister,\" and once you receive a confirmation email thanking you for your interest.\nJoin us at the Civic Center Puppet Show on Saturday, May 2 (11 a.m.–3 p.m.) and help kids get their craft on! We need friendly hands to help little ones cut, glue, paint, color, and create — no experience necessary, just a love for fun and a willingness to get a little glittery.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1252148",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1252148",
+      "needaddress": "F. Scott Fitzgerald Theatre and Social Hall\n 603 Edmonston Drive\n Rockville, MD\n  20851",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "May 2, 2026",
+      "needdate": "May 2, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
