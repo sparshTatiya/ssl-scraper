@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-23T15:48:12.031991+00:00",
+    "scraped_at": "2026-04-27T12:18:40.790547+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1273,
-    "ssl_count": 1273
+    "total_count": 1274,
+    "ssl_count": 1274
   },
   "opportunities": [
     {
@@ -42004,6 +42004,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Food Prep & Delivery",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1255531",
+      "needtitle": "2026 MCPS Title I ELO Summer Program Student Volunteer Registration Information",
+      "agencyname": "MCPS Division of School Leadership and Improvement",
+      "needdetails": "2026 Title I ELO Summer Program\nStudent Volunteer Information ONLY \nDO NOT RESPOND TO THIS OPPORTUNITY - \nUSE THE LINK BELOW TO APPLY FOR SPECIFIC SCHOOL SITES\nUse the link below to find specific directions for each school site:\nhttps://docs.google.com/document/d/1SFXKxOETGHECZ7ufIs8hLTHGQZKd80WLLebT_wRvhAg/edit?usp=sharing\nThank you for your interest in volunteering with the 2026 Title I ELO Summer Program! \nEach school site uses one of two application processes:\nModel A – Apply Online\nModel B – Contact the School\nRespond to the school site’s posting on the \nMontgomery County Volunteer Center website\nFind Your School Site \nusing the table titled, \n“ELO School Sites Recruiting through the Montgomery County Volunteer Center website”\nComplete the Google Form\n that will be sent to your email address within a week of responding on the Volunteer Center website \nFirst-come, first-served basis\nReach out directly to the \nprogram coordinator\n at the school site to express interest\nFind Your School Site\n using the table titled, \n“ELO School Sites Recruiting Student Volunteers Independently”\nImportant - You may apply/register for ONLY ONE school site!\nUse the link below to find specific directions for each school site:\nhttps://docs.google.com/document/d/1SFXKxOETGHECZ7ufIs8hLTHGQZKd80WLLebT_wRvhAg/edit?usp=sharing\nQuestions?\nContact Tina Leone at \nTina_C_Leone@mcpsmd.org",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1255531",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1255531",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Tina_C_Leone@mcpsmd.org",
+      "interests": "Education / Mentoring",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
