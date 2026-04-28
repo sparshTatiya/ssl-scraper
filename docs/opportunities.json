@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-28T02:01:46.701474+00:00",
+    "scraped_at": "2026-04-28T18:00:14.178766+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1288,
-    "ssl_count": 1288
+    "total_count": 1289,
+    "ssl_count": 1289
   },
   "opportunities": [
     {
@@ -42504,6 +42504,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": false,
+      "isVirtual": true,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1256328",
+      "needtitle": "Autism Mentorship & Family Support Volunteer (Virtual & Community-Based)",
+      "agencyname": "Ethiopian-Eritrean Special Needs community",
+      "needdetails": "Description\nSupport individuals with autism and their families through meaningful volunteer engagement. Volunteers will provide virtual mentoring to children, youth, and adults with autism, helping build social, communication, and life skills. In addition, volunteers will support families through respite assistance and help with essential tasks such as grocery shopping and errands. This opportunity is ideal for individuals who are compassionate, patient, and interested in making a direct impact in culturally diverse communities. Training and ongoing support will be provided. \nQualifications\nAge 18+ (or supervised if under 18)\nBackground check required\nCompletion of required trainings (CPR)\nExperience or interest in autism and developmental disabilities preferred\nBilingual (Amharic/Tigrinya) a plus",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1256328",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1256328",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "8am - 8pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Bethel Assefa | eesncdmv@gmail.com",
+      "interests": "Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
       "isVirtual": true,
       "tags": [],
       "dateadded": "",
