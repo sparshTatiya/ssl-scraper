@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-29T12:13:37.732694+00:00",
+    "scraped_at": "2026-04-29T18:55:09.587539+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1291,
-    "ssl_count": 1291
+    "total_count": 1292,
+    "ssl_count": 1292
   },
   "opportunities": [
     {
@@ -42603,6 +42603,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1256001",
+      "needtitle": "Metro Move Fest 2026",
+      "agencyname": "Nesfield Performance Foundation",
+      "needdetails": "Metro Move Fest is where movement, community and giving back come together. It is a celebration of wellness, collaboration and impact! We will feature a mix of competitive and recreational movement experiences for the entire family. The goal is to support a healthier, more connected community.\nWe are looking for student volunteers to help with the\n entire movement festival. In addition to setting up and taking down equipment,\n we would like the volunteers to help facilitate different movement activities.\n For example, preparing participants for the relay race or being a\n facilitator to any of the activities planned. If there are young participants\n helping to ensure that they're safely participating by demonstrating how to use\n the equipment. Being an assistant at the first aid station or the\n hydration station.\nIf you are interested, please sign up here - \nhttps://docs.google.com/forms/d/e/1FAIpQLSfaEsNyUcGlA2D3paDJ73OYltM4uGgVv8lA_81FAe8RT-WILw/viewform\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1256001",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1256001",
+      "needaddress": "p.o. Box 12\n Rockville, MD\n  20848",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "May 17, 2026",
+      "needdate": "May 17, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Hayat A Pacquette | 4437223011",
+      "interests": "Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
