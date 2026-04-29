@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-04-29T20:08:31.272525+00:00",
+    "scraped_at": "2026-04-29T21:38:57.979564+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1295,
-    "ssl_count": 1295
+    "total_count": 1296,
+    "ssl_count": 1296
   },
   "opportunities": [
     {
@@ -42735,6 +42735,39 @@
       "isSSL": true,
       "isFamilyFriendly": false,
       "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1257178",
+      "needtitle": "6/20/2026 - Park Cleanup - Northwest Branch Stream Valley Park",
+      "agencyname": "Montgomery Parks, M-NCPPC",
+      "needdetails": "PLEASE REGISTER FOR THE CLEANUP HERE!\n*All\nMontgomery Park Volunteer Opportunities require a separate sign-up on our\nwebsite to be considered officially registered as a volunteer - you are not\nregistered if you have ONLY signed up on the Montgomery County Volunteer\nwebsite! MCPS Students - PLEASE DO NOT USE YOUR SCHOOL EMAIL*\nJoin Montgomery Parks & Neighbors of Northwest Branch at a volunteer park cleanup! Help beautify your community green spaces, keep litter out of our streams, and protect wildlife!   \n*This cleanup will take place on steep and uneven terrain*   \nChildren under 14 years old must volunteer with a parent/guardian.\nAll cleanups are pre-approved for SSL hours*. Forms are provided at the cleanup.\nStudents must pre-register to receive SSL hours. Do not use an MCPS email.\nThis opportunity is not eligible for court-ordered service.  \nPlease click on the ‘Register’ button to sign up for the cleanup. Please note that when an event fills up, it disappears from the schedule. Cleanups will be added throughout the season, so check back often! We’ll send cleanup details to all registered volunteers on the week of the cleanup. \nCleanup Leader: Nick Clements & Drew Mackay \nFor questions contact: volunteercleanups@montgomeryparks.org\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1257178",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1257178",
+      "needaddress": "475 Southampton Dr\n Silver Spring, MD\n  20903",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jun 20, 2026",
+      "needdate": "Jun 20, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "9am-11am",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Environment",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
