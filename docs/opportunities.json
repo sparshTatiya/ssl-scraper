@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-04T19:04:52.419893+00:00",
+    "scraped_at": "2026-05-04T20:46:03.367809+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1317,
-    "ssl_count": 1317
+    "total_count": 1318,
+    "ssl_count": 1318
   },
   "opportunities": [
     {
@@ -43462,6 +43462,39 @@
       "isFamilyFriendly": true,
       "isOutdoors": true,
       "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1258501",
+      "needtitle": "Legal Translation Support (Tagalog to English)",
+      "agencyname": "Ayuda",
+      "needdetails": "Opportunity Title: \nLegal Translation Support (Tagalog to English)\nOpportunity Description: \nWe are seeking assistance with a translation of messages to include in their immigration filing. The translations from Tagalog to English will need to include a certificate of translation and will be included in the T Visa filing with US Citizenship and Immigration Services (USCIS). USCIS does not require you to be a certified translator, but you do have to be fluent in both languages and competent to translate the document.\nDepartment/Individuals Assisting \nAyuda Legal Department – Immigration Team (DC Office)\nResponsible to: \nAbi Hollinger, one of our DC Immigration Staff Attorneys and Connor Paul, our Volunteer Manager\n# of Volunteers Requesting: \nWe are looking for a 1 volunteers to assist with this opportunity\nResponsibilities: \nTranslating multiple text message exchanges from Tagalog to English\nCompletion of accompanying certificate of translation with wet signature\nSending completed translations to our DC - IMM team for final review before being provided to clients/included in application\nOpportunity Qualifications: \nRequired:\nAged 18+ or older\nBilingual abilities/English – Tagalog fluency\nComputer Literacy/Experience with Microsoft Word\nPolite, courteous, and a positive disposition\nAbility to communicate well with others\nAbility to work independently with minimal supervision\nOrganized, timely, and able to meet deadlines\nPreferred:\nSome experience in translation work\nPrevious experience working to assist low-income individuals, immigrants, refugees, or survivors of domestic abuse/sexual assault/trauma\nPassionate about serving asylum seekers\nCommitment: \nDocuments requesting translation of will be shared via email with volunteers \nwho can then complete them on their own time and remotely\n. Deadlines will be established between the attorney supervising but \ntypical turnaround time from receipt of documents will be around a week for shorter documents, 2 weeks for longer documents.\nFor this specific request, will only be a few short messages and \nthus will be requested to return within a week of receipt\nTechnology Needed: \nThe following technology will be needed for this opportunity and not provided by Ayuda\nComputer/Laptop with access to Microsoft Word\nIf you would like to do this entirely remotely, you will need to either print, sign, and scan the certificate of translation, or take a photo of your wet ink signature and add it to the certificate of translation using a pdf editor. Ayuda can also print the document for you to sign.\nSign Up/Application: \nTo help with this opportunity and completion of translation for our DC – IMM team, please sign up for our opportunity here!\nIf you have any questions about this opportunity, please don’t hesitate to reach out to them at \nvolunteers@ayuda.com.\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1258501",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1258501",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Connor Paul | volunteers@ayuda.com",
+      "interests": "Professional Skills",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": false,
+      "isVirtual": true,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
