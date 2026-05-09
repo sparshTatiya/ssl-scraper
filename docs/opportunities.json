@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-08T16:50:09.068290+00:00",
+    "scraped_at": "2026-05-09T21:38:18.633478+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1339,
-    "ssl_count": 1339
+    "total_count": 1340,
+    "ssl_count": 1340
   },
   "opportunities": [
     {
@@ -44187,6 +44187,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1257187",
+      "needtitle": "Help Build a Pocket Park (Earn SSL Hours)",
+      "agencyname": "Student Global Ambassador Program (SGAP Leaders)",
+      "needdetails": "Join \nGreen Corners for Everyone\n community build day to help build a small green corner/pocket park.\nDATE: Sunday, May 17, 2026 \n(Rain date: Saturday, May 23, 2026)\nTIME: 1:00 PM - 4:00 PM EST\nLOCATION: 16501 Redland Rd, Rockville, MD 20855 (Neighborhood Church)\nSign-up Form\n:\nhttps://forms.gle/6jxvfSr1w86u3kXJA\nUnable to make it on Community Build Day? There are various other ways you can participate (refer to the \nsign-up form\n and \nremote participation criteria\n to learn more). \nRemote Participation Criteria and Guidelines: \nhttps://docs.google.com/document/d/1804btprescvD9M2PACjeNEsFQN-o7mdoj5LwSLXJmJQ/edit?usp=sharing\nAbout Green Corners for Everyone\nGreen Corners for Everyone (GC4E) is a student-led environmental sustainability initiative that aims to convert underused public space into vibrant, lively green corner/pocket park to make nature more accessible. GC4E is an initiative started by students part of \nSGAP Leaders\n' Sustainability Fellows 2026 Program.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1257187",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1257187",
+      "needaddress": "Location Dot Shift\n 16501 Redland Rd\n Rockville, MD\n  20855",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "May 17, 2026",
+      "needdate": "May 17, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "1pm-5pm; 1:00 PM - 4:00 PM",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Environment, Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
