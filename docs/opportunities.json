@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-13T18:25:44.670159+00:00",
+    "scraped_at": "2026-05-13T20:17:33.057920+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1353,
-    "ssl_count": 1353
+    "total_count": 1354,
+    "ssl_count": 1354
   },
   "opportunities": [
     {
@@ -44644,6 +44644,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1262103",
+      "needtitle": "Seeking English Conversation Club Volunteer - English Language Facilitator for Library Program",
+      "agencyname": "Long Branch Library",
+      "needdetails": "What Volunteers Do\nVolunteers support library programming for community members who want to practice and improve their English conversation skills in a welcoming environment.\nWho We Are\nWe are the Long Branch Library, part of the Montgomery County Public Libraries (MCPL). The mission of the MCPL is to provide equitable access to information, ideas, and experiences that spark imagination and expand possibilities for all.\nFull Description\nLong Branch Library is seeking volunteer(s) to assist with our weekly English Conversation Club, held every Saturday from 10:30am to 12:00pm.\nEnglish Conversation Club is a casual and supportive program designed for adults who want to build confidence in their English speaking and listening skills. Volunteer(s) will work alongside another facilitator to help guide conversations, encourage participation, and create a friendly and inclusive atmosphere for attendees.\nThe program takes place in a meeting room at Long Branch Library each Saturday on an ongoing basis.\nAll Montgomery County Public Library volunteers are required to complete a short volunteer registration form and sign a confidentiality agreement before they begin volunteering.\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1262103",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1262103",
+      "needaddress": "Location Dot Shift\n 8800 Garland Avenue\n Silver Spring, MD\n  20901",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "10:30am-12pm; 10:30am to 12:00pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
