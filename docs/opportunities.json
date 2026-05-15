@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-14T21:43:03.586247+00:00",
+    "scraped_at": "2026-05-15T16:00:47.029872+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1356,
-    "ssl_count": 1356
+    "total_count": 1357,
+    "ssl_count": 1357
   },
   "opportunities": [
     {
@@ -44748,6 +44748,39 @@
       "isSSL": true,
       "isFamilyFriendly": false,
       "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1263237",
+      "needtitle": "Friday, June 5 Event Volunteers Needed",
+      "agencyname": "Hope Connections for Cancer Support",
+      "needdetails": "Hope Connections for Cancer Support is having its largest annual fundraiser on Friday, June 5, at our Bethesda location; 10100 Laureate Way. \n We need volunteers to help usher guests from the shuttle parking area to the event area.  The shift would be from 5 pm- 8 pm, and water, snacks, and dinner are included for all volunteers!  Teams of 2 or more can also volunteer together. \n SSL hours available for eligible Montgomery County Students.  Please contact our Volunteer Manager, Teresa at: \ninfo@hopeconnectionsforcancer.org \nto sign up.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1263237",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1263237",
+      "needaddress": "Location Dot Shift\n 10100 Laureate Way\n Bethesda, MD\n  20814",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jun 5, 2026",
+      "needdate": "Jun 5, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "5 pm- 8 pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
