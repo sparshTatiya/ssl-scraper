@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-18T14:27:00.961548+00:00",
+    "scraped_at": "2026-05-18T20:13:16.191190+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1358,
-    "ssl_count": 1358
+    "total_count": 1359,
+    "ssl_count": 1359
   },
   "opportunities": [
     {
@@ -44813,6 +44813,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": true,
+      "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1264248",
+      "needtitle": "2026 Be My Neighbor Day Park Clean Up",
+      "agencyname": "Conflict Resolution Center Of Montgomery County, Inc. - CRCMC",
+      "needdetails": "Sign up to join us for our Be My Neighbor Day Park clean up at Wheaton Regional Park on June 13th at 11 am!\n Location: 2000 Shorefield Rd, Wheaton, MD 20902 \n The event will bring together families, organizations, and community members for a day focused on kindness, connection, and community engagement. Parking and restrooms will be available on-site for attendees. \n We will also be providing SSL forms for students, as well as Minor Release Forms for minors attending without a parent or guardian.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1264248",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1264248",
+      "needaddress": "Location Dot Shift\n 2000 Shorefield Rd\n Wheaton, MD\n  20902",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jun 13, 2026",
+      "needdate": "Jun 13, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "11 AM - 1 PM",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nIvan | ivan@crcmc.org",
+      "interests": "Events / Collections, Environment",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
       "isOutdoors": true,
       "isVirtual": false,
       "tags": [],
