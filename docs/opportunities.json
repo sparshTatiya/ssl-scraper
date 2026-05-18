@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-15T16:00:47.029872+00:00",
+    "scraped_at": "2026-05-18T14:27:00.961548+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1357,
-    "ssl_count": 1357
+    "total_count": 1358,
+    "ssl_count": 1358
   },
   "opportunities": [
     {
@@ -44776,6 +44776,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1258012",
+      "needtitle": "Mobile Farm Market Volunteers",
+      "agencyname": "Community FarmShare",
+      "needdetails": "We are looking for volunteers to help with our Mobile FARMacy Markets! Community FarmShare runs \nmobile FARMacy markets at 9 different locations throughout Montgomery County from June to November.\n In 2026 we have 4 markets in Silver Spring, 2 in Gaithersburg, 1 in Germantown, 1 in Montgomery Village, and 1 in Rockville. You can see a complete list of our market locations and dates \nhere\n.\nVolunteers are needed to help our CFS staff \nset up and close down the market, restock the tables, hand out info/resources\n and generally be a welcoming, supportive, engaging team member to provide a positive experience in the community. Working at the mobile market offers a unique experience for volunteers to be able to interact and connect with the participants of our programs.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1258012",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1258012",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Food Prep & Delivery",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
