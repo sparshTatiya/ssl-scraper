@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-05-27T14:23:31.608207+00:00",
+    "scraped_at": "2026-05-27T19:27:43.481523+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1400,
-    "ssl_count": 1400
+    "total_count": 1401,
+    "ssl_count": 1401
   },
   "opportunities": [
     {
@@ -46200,6 +46200,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1267024",
+      "needtitle": "Washington Folk Festival 2026 Volunteer Coordinator",
+      "agencyname": "Folklore Society of Greater Washington",
+      "needdetails": "The Volunteer Coordinator on a remote basis helps recruit, organize, and assign jobs to volunteers who assist in producing the 43rd Washington Folk Festival on August 23, 2026, Glen Echo Park, MD. The job starts now (any location) and ends on festival weekend (onsite). Hopefully, you'll be keen to use spreadsheets and databases, have an eye for detail, and love working with people, folkies in particular!",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1267024",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1267024",
+      "needaddress": "Location Dot Shift\n 7300 MacArthur Blvd, Glen Echo Park\n Glen Echo, MD\n  20812",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nIngrid Marie Gorman | ingridgorman@gmail.com | 3013512451",
+      "interests": "Arts / Culture",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
