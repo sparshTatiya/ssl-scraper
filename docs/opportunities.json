@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-03T15:25:16.990035+00:00",
+    "scraped_at": "2026-06-03T21:35:04.133862+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1429,
-    "ssl_count": 1429
+    "total_count": 1430,
+    "ssl_count": 1430
   },
   "opportunities": [
     {
@@ -47158,6 +47158,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": true,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1268826",
+      "needtitle": "Volunteers for 4th Annual SSH Community Day",
+      "agencyname": "Interfaith Works",
+      "needdetails": "Bright Greetings! \nWe’re looking for energetic and dependable students to help\n support our 4th Annual SSH Community Day: Good Vibes & Community Ties on\n Sunday, June 14th, 2026!\nStudent volunteers will assist with:\nEvent setup\nActivity stations & games\n Supporting guests during the event\nFood & supply assistance\n Event breakdown & cleanup and more!\nThis is a great opportunity to gain volunteer experience,\n support the community, and be part of a fun and exciting event filled with\n music, dancing, games, arts & crafts, comedy, and great food!\n Location: Seneca Creek State Park - \nCardinal Pavilion\n11950 Clopper Rd,\n Gaithersburg, MD 20878\nAttire:\n Casual, comfortable clothing and sneakers recommended.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1268826",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1268826",
+      "needaddress": "Location Dot Shift\n 11950 Clopper Rd\n Gaithersburg, MD\n  20878",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jun 14, 2026",
+      "needdate": "Jun 14, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "9am -12pm; 12pm - 5pm; 4pm - 7pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nHenrietta Morrison | 301-693-3006",
+      "interests": "Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
