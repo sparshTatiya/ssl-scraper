@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-02T18:02:33.107706+00:00",
+    "scraped_at": "2026-06-03T15:25:16.990035+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1428,
-    "ssl_count": 1428
+    "total_count": 1429,
+    "ssl_count": 1429
   },
   "opportunities": [
     {
@@ -47125,6 +47125,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1270376",
+      "needtitle": "2026 ASIRT Road Safety PSA Contest - Submit Video by October 4, 2026",
+      "agencyname": "MCPS Division of School Leadership and Improvement",
+      "needdetails": "2026 ASIRT & MCR Road Safety PSA Contest \nDeadline: Sunday, October 4, 2026\nCalling all MCPS middle and high school students!\nThe Association for Safe International Road Travel (ASIRT) and the Montgomery County Regional Student Government Association (MCR) are sponsoring a Public Service Announcement (PSA) competition focused on road safety and how to keep yourself and others safe on the roads. \nParticipants who submit a quality PSA that meets the competition requirements will earn \n10 SSL hours\n and have a chance to win an \nAmazon \ngift card. \nPLEASE READ \nTHIS DOCUMENT\n IN FULL.\nMCPS Students, please \nDO NOT RESPOND\n to this opportunity -- all MCPS middle school and high school students may participate in this opportunity by following the directions below:\nTo submit an entry: \nhttps://tinyurl.com/ASIRT2026",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1270376",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1270376",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring, Arts / Culture",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": true,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
