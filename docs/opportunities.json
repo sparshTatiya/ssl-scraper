@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-05T00:01:32.404178+00:00",
+    "scraped_at": "2026-06-05T20:22:56.095313+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1436,
-    "ssl_count": 1436
+    "total_count": 1437,
+    "ssl_count": 1437
   },
   "opportunities": [
     {
@@ -47389,6 +47389,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": true,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1272047",
+      "needtitle": "Olney Theatre Center - Saturday, June 27, 2026 - ALL THINGS MARYLAND CELEBRATION",
+      "agencyname": "Olney Theatre Center For The Arts",
+      "needdetails": "We are seeking volunteers to help us facilitate\nALL THINGS MARYLAND CELEBRATION\n on Saturday, June 27, 2026 \n- an afternoon of celebrating everything that makes Maryland special. The event starting at 3:00pm with set-up beginning at 1:30pm, follows the matinee of \nPlease Underestimate Me\n, a hilarious and heartfelt world-premiere solo show featuring beloved chef and television personality Carla Hall. As the State Summer Theater of Maryland, the Olney Theatre Center is bringing the community together for a festive afternoon celebrating local flavor, culture, and pride. You will be helping us:\nSet-up the space.\nWelcome our vendors and performers to campus.\nClean up and \"strike\" the space at the end of the day.\nThe event will mostly be held outdoors in our Bernard Courtyard. The event will be held indoors in case of inclement weather. \nI\nnterested in this awesome and fun opportunity?  \nContact Barb Giniger Cooper \nCommunity Engagement Manager\nbarb.cooper@olneytheatre.org\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1272047",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1272047",
+      "needaddress": "Location Dot Shift\n 2001 Olney-Sandy Spring Road\n Olney, MD\n  20832",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jun 27, 2026",
+      "needdate": "Jun 27, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "1:30pm -  5:30pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nBarb Giniger Cooper | barb.cooper@olneytheatre.org",
+      "interests": "Arts / Culture",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
