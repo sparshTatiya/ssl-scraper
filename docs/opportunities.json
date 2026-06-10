@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-10T21:37:04.454866+00:00",
+    "scraped_at": "2026-06-10T23:21:44.867669+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1455,
-    "ssl_count": 1455
+    "total_count": 1456,
+    "ssl_count": 1456
   },
   "opportunities": [
     {
@@ -48010,6 +48010,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Events / Collections, Education / Mentoring, Professional Skills, Technology",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1272206",
+      "needtitle": "SVPC June Horse Trials",
+      "agencyname": "Seneca Valley Pony Club",
+      "needdetails": "Join us at Bittersweet Field on Partnership Road in Poolesville on Saturday or Sunday to earn up to 8 hours of SSL per day at our recognized horse trials.  We have jobs for volunteers with horse knowledge (dressage, show jumping and cross country team members) and unskilled volunteers who have never been to an event before (dressage score runners, show jumping jump crew and parking team members).\nYou can view open positions and sign up online here: \nhttps://www.eventingvolunteers.com/events/16087/signup\nVolunteers receive lunch, snacks, and SVPC swag. Come join us to see some incredible horses and riders compete in a USEA recognized event that raises funds to keep Bittersweet Field available to equestrians.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1272206",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1272206",
+      "needaddress": "Location Dot Shift\n 14401 B Partnership Road\n Poolesville, MD\n  20837",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Animals, Recreation / Sports",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
