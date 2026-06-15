@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-12T19:01:04.961511+00:00",
+    "scraped_at": "2026-06-15T16:13:52.826860+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1460,
-    "ssl_count": 1460
+    "total_count": 1461,
+    "ssl_count": 1461
   },
   "opportunities": [
     {
@@ -48180,6 +48180,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1274808",
+      "needtitle": "Flexible Volunteer Opportunities This Summer – Teach, Tutor, or Substitute with WEC",
+      "agencyname": "Washington English Center",
+      "needdetails": "Hello! The Washington English Center (WEC), a DC-based nonprofit organization, is looking for volunteers to co-teach, substitute teach, or tutor ESOL to adult immigrants and refugees this Summer! WEC serves several hundred adult language learners each term from over 80 different countries.\nCheck out this video featuring students from around the world\n sharing their thoughts about their teachers.\nJoin our community of over 400 volunteers to teach online and/or in person in downtown DC! As a WEC volunteer, you’ll have the opportunity to engage with diverse cultures, attend free teacher training, and connect with others at in-person and online volunteer socials throughout the term. \nNo prior teaching experience is required! \nYou’ll be paired with a co-teacher and receive ongoing training and support from our staff.\nESOL group classes start July 13th and run through August 19th, 2026. \nOur one-on-one tutoring sessions happen on a rolling basis and have flexible start and end dates. \nPlease note, if you are interested in co-teaching we ask that you sign up by June 27th to receive a placement or waitlist information on July 1st.\nWe also have the opportunity to substitute teach, which does not require a once a week 1-3 hour commitment, and provides volunteers with the flexibility to get involved at their own convenience. We are happy to work with your schedule and accept volunteers throughout the year! \nVolunteers must be 18 years of age and a fluent English speaker to participate.\n We also welcome non-native English speakers and encourage them to volunteer, in fact, we have many volunteers who are former or are current students teaching at lower levels. At WEC, we value the multilingual skills student-volunteers bring to our classrooms! \nIf interested in reading more about volunteer roles, descriptions, and responsibilities, please check out our\n volunteer flier\n or watch our short\n 7-minute WEC Informational video\n that provides an overview of all our programs. To sign up, please do so on our\nSummer 2026 Volunteer Form\n. \nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1274808",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1274808",
+      "needaddress": "Location Dot Shift\n 1100 G street NW, Suite 200\n Suite 200\n Washington, DC\n  20005",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
