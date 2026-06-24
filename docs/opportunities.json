@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-23T20:31:12.594645+00:00",
+    "scraped_at": "2026-06-24T16:13:08.335457+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1491,
-    "ssl_count": 1491
+    "total_count": 1492,
+    "ssl_count": 1492
   },
   "opportunities": [
     {
@@ -49203,6 +49203,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1277910",
+      "needtitle": "Feeding The Hungry",
+      "agencyname": "NEST4US",
+      "needdetails": "Team NEST4US will be serving lunch for the guests at Grace's Table/Georgetown Ministry Center. Let's give hope to those in need!! Any questions, contact us at \ninfo@nest4us.org\nhttps://www.signupgenius.com/go/30E084AA4A729AB9-64614549-feeding#/\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1277910",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1277910",
+      "needaddress": "Location Dot Shift\n Georgetown Ministry Center: 1041 Wisconsin Ave NW, Washington DC\n DC\n  20007",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jun 27, 2026",
+      "needdate": "Jun 27, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "10:30am-1:30pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
