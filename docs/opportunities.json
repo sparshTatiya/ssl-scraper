@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-25T18:31:16.499339+00:00",
+    "scraped_at": "2026-06-25T20:33:29.874768+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1501,
-    "ssl_count": 1501
+    "total_count": 1502,
+    "ssl_count": 1502
   },
   "opportunities": [
     {
@@ -49533,6 +49533,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1278438",
+      "needtitle": "Fair Lakes Movie Night",
+      "agencyname": "NEST4US",
+      "needdetails": "Team NEST4US will be helping with Fairlakes movie night. Check in as NEST4US volunteers with Kandice - (703)-943-7693. Let's fill in the spots & make this event successful. Any questions, contact us at info@nest4us.org\nhttps://www.signupgenius.com/go/30E084AA4A729AB9-64471938-fair#/\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1278438",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1278438",
+      "needaddress": "Location Dot Shift\n 12500 Fair Lakes Cir\n Fairfax, VA\n  22033",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Aug 8, 2026",
+      "needdate": "Aug 8, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
