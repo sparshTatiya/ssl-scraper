@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-26T16:11:13.214393+00:00",
+    "scraped_at": "2026-06-26T18:09:19.799820+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1518,
-    "ssl_count": 1518
+    "total_count": 1519,
+    "ssl_count": 1519
   },
   "opportunities": [
     {
@@ -50082,6 +50082,39 @@
       "needdate": "",
       "registrationclosed": "",
       "needhoursdescription": "10:45am-11:00am; 11:00amto 1:00pm; 11:00amto 1:00pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1278874",
+      "needtitle": "Cook Up Comfort",
+      "agencyname": "The Honeycomb Project",
+      "needdetails": "Bring comfort to the table! Your family will shop for ingredients, prepare a dish at home, and drop it off at Calvary Women’s Services to help provide a home-cooked meal for women staying at the shelter. Calvary Women’s Services provides housing and supportive services for women experiencing homelessness or leaving domestic violence. For many residents, meal options can be limited and repetitive. The dish your family prepares brings variety, and the comfort of a home-made meal while supporting Calvary’s work to provide stability and resources for residents.\n Students will earn 3 SSL hours for cooking a meal for 20–25 residents. \nRegister here: \nhttps://events.dc.thehoneycombproject.org/event/69cbc888fbd9c126d6ca360e\nStudent participation in this service project is at the discretion of the student’s parent/guardian. The nonprofit organization is responsible for maintaining student safety and privacy at any time the student is interacting with the nonprofit and its clients. The nonprofit organization will determine the number of SSL hours awarded based on the evidence submitted. Parents/guardians should contact the nonprofit directly with any questions and/or concerns. This service activity is designed to be completed within the safety of the student’s home.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1278874",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1278874",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jul 18, 2026",
+      "needdate": "Jul 18, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
       "needagerequirements": "",
       "minAge": 0,
       "maxAge": 0,
