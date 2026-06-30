@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-06-29T16:50:55.528644+00:00",
+    "scraped_at": "2026-06-30T23:05:53.332425+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1529,
-    "ssl_count": 1529
+    "total_count": 1530,
+    "ssl_count": 1530
   },
   "opportunities": [
     {
@@ -50451,6 +50451,39 @@
       "needallowteams": false,
       "needvolunteersneeded": 0,
       "needcontact": "Clipboard 1 Shift\nAlejandra Perez | alejandra.perez-velasquez@cciweb.org",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1279968",
+      "needtitle": "NEST4US Community Resource Distribution",
+      "agencyname": "NEST4US",
+      "needdetails": "Through our NEST Nurtures zero hunger program, we remain committed to providing consistent, affordable access to a diverse array of nutritious foods - from fresh produce, dairy products, and snack packs to baked goods, prepared meals, and grocery bags. Join us for our community resource distribution event to benefit families in need. Let's fill in the spots & make this event successful!\nhttps://www.signupgenius.com/go/30E084AA4A729AB9-48334079-nest4us#/\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1279968",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1279968",
+      "needaddress": "Location Dot Shift\n Manna From Heaven\n 21445 Potomac View Road\n Sterling, VA\n  20164",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jul 11, 2026",
+      "needdate": "Jul 11, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "9:30am-12:30pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
       "interests": "",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
