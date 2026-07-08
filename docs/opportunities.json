@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-02T16:02:08.388752+00:00",
+    "scraped_at": "2026-07-08T12:16:05.462326+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1535,
-    "ssl_count": 1535
+    "total_count": 1536,
+    "ssl_count": 1536
   },
   "opportunities": [
     {
@@ -50656,6 +50656,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1281513",
+      "needtitle": "Admin Inquiry Volunteer (Virtual)",
+      "agencyname": "Grace Helping Hands Inc",
+      "needdetails": "Admin Inquiry Volunteer \nGrace Helping Hands is seeking dedicated volunteers to\n assist with \nadministrative \nI\nnquiry tasks\n to support our mission\n of providing essential toiletry kits to homeless women and children. \nOrganization:\n Grace Helping Hands\nPosition Type:\n Volunteer\nLocation: \nRemote\n Commitment: Flexible (4 hours/week preferred); One-year commitment required\nRole Overview\nThe Admin Inquiry Volunteer at Grace Helping Hands supports\n volunteer recruitment by conducting virtual interviews with prospective\n volunteers and assisting with onboarding sessions for new members.\nResponsibilities\nConduct\n virtual interviews to learn about prospective volunteers’ interests,\n skills, and availability.\nCommunicate\n with applicants and answer questions about volunteer opportunities.\nAssist\n with scheduling interviews and onboarding sessions.\nIntroduce\n new volunteers to the organization, expectations, and available resources.\nHelp\n organize volunteer information and onboarding records.\nExpectations\nCommunicate\n professionally and respectfully with volunteers.\nStay\n organized and responsive to volunteer inquiries on Idealist & Moco\n organization\nAttend\n scheduled interviews, onboarding sessions, and team meetings.\nMaintain\n confidentiality of volunteer information.\nWhat You Will Learn\nImprove\n communication, interview, and leadership skills.\nGain\n experience with volunteer recruitment and onboarding.\nLearn\n about administrative coordination and team management.\nDevelop\n skills in organization, problem-solving, and community engagement.\nHow to Apply: \nPlease complete this \nform\n to\n register and volunteer with GHH. \nContact us:\nPlease contact us at \nvolunteer@gracehelpinghands.org\n if\n you have any questions. \nThis is a virtual opportunity, allowing you to contribute\n from the comfort of your home. \nNot approved for MCPS SSL hours.\nEffective 01/01/2026 --<< All adults age 18 and\n older are ask to commit to \na minimum of one year of service\n. These roles\n require consistency, professionalism, and a long-term commitment to supporting\n the mission of Grace Helping Hands.\nJoin us in making a difference in our local\n community.  Your contributions in time will help expand us reach more\n people in need!",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1281513",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1281513",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": true,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
