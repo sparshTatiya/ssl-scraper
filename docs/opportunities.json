@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-14T12:06:34.218344+00:00",
+    "scraped_at": "2026-07-14T21:53:01.043972+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1566,
-    "ssl_count": 1566
+    "total_count": 1567,
+    "ssl_count": 1567
   },
   "opportunities": [
     {
@@ -51670,6 +51670,39 @@
       "minAge": 0,
       "maxAge": 0,
       "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Arts / Culture",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1285340",
+      "needtitle": "43rd Washington Folk Festival",
+      "agencyname": "Folklore Society of Greater Washington",
+      "needdetails": "The Washington Folk is all all-volunteer event and we need dozens of people to help make it happen! From performer and instrument check-in to stage set up and operations, there are lots of fun opportunities to be part of an amazing and special program that attracts thousands of people each year. Students can earn SSL hours but all ages welcome. Some parents volunteer with their children!  Join us! The application to apply and specify preferences is here: \nhttps://wff.fsgw2.org/wff/\nvolunteerform.php\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1285340",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1285340",
+      "needaddress": "Location Dot Shift\n 7300 MacArthur Blvd\n Glen Echo, MD\n  20812",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Aug 23, 2026",
+      "needdate": "Aug 23, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Arts / Culture",
