@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-10T22:31:44.417889+00:00",
+    "scraped_at": "2026-07-14T12:06:34.218344+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1565,
-    "ssl_count": 1565
+    "total_count": 1566,
+    "ssl_count": 1566
   },
   "opportunities": [
     {
@@ -51640,6 +51640,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1284484",
+      "needtitle": "We Are Artistic Riverdale Art Market Booth Volunteers",
+      "agencyname": "We Are Artistic",
+      "needdetails": "We are looking for volunteers to staff our July 25th Riverdale Art Market Booth. We need people to greet, people to help others do the activity, and set up and clean up! We will be doing a card making event for kids in hospitals!\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1284484",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1284484",
+      "needaddress": "Location Dot Shift\n 6621 Baltimore Ave, \n Riverdale, MD\n  20737",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "12:00pmto 2:00pm; 2:00pmto 4:00pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Arts / Culture",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
