@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-17T17:59:49.553468+00:00",
+    "scraped_at": "2026-07-20T19:15:29.724591+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1574,
-    "ssl_count": 1574
+    "total_count": 1575,
+    "ssl_count": 1575
   },
   "opportunities": [
     {
@@ -51937,6 +51937,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "Clipboard 1 Shift\nJustin Burgett | deputy@townofsomersetmd.gov",
       "interests": "Professional Skills",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1284420",
+      "needtitle": "Need Volunteer Educators/ Teachers/Assistants Are Needed for 2 Weeks Summer Program",
+      "agencyname": "The People's Community Baptist Church",
+      "needdetails": "We are offering a free, two-week \nSummer Academic and Cultural Enrichment Summer Program \ndesigned to improve academic achievement in Literacy and Math, for about 50 students entering grades 1-5. The program aims to equip the students to become competent in literacy, math, and cultural awareness. \nWe are offering SSL hours to students between the ages of\n 13-18. \nSome of the service-learning activities include: \nAssist in serving breakfast to the students when they arrive\n between 8:30am and 9am, and clean up.\nAssist the teachers in the classrooms (handout workbooks,\n pencils, play games, escort the students to the restrooms, etc.\nAssist in serving lunch, and clean up.\nThe program is scheduled for weeks of July 27th-31st, and August 3rd-7th, 2026, from 8:30am- 12:30pm. An Orientation is scheduled for July 23rd from 10am-2pm.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1284420",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1284420",
+      "needaddress": "Location Dot Shift\n The People's Community Baptist Church\n 31 Norwood Road\n SILVER SPRING, MD\n  20905",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "8:30am-12:30pm; 8:30am- 12:30pm; 10am-2pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring, Arts / Culture, Professional Skills",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
