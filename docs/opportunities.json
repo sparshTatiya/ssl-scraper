@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-21T12:21:05.095520+00:00",
+    "scraped_at": "2026-07-21T17:10:10.642104+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1586,
-    "ssl_count": 1586
+    "total_count": 1587,
+    "ssl_count": 1587
   },
   "opportunities": [
     {
@@ -52333,6 +52333,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Arts / Culture, Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1288355",
+      "needtitle": "9/26/2026 Elmhirst Parkway - Weed Warrior Workday Event",
+      "agencyname": "Montgomery Parks, M-NCPPC",
+      "needdetails": "Volunteers must be 16 years old or older to join this event. The exact meeting location will be emailed to all pre-registrants. Please note: Court Ordered Volunteer Hours CAN'T be granted through this event.\nAddress: Elmhirst Parkway Neighborhood Conservation Area (exact meeting location will be emailed to all pre-registrants) Bethesda, MD\nContact Info: Corinne Stephens (301) 962-1357\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1288355",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1288355",
+      "needaddress": "Location Dot Shift\n 4700 Elmhirst La. Bethesda, MD 20814\n MD\n  20814",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Sep 26, 2026",
+      "needdate": "Sep 26, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "10:00AM - 12:00PM",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Environment",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
