@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-22T19:51:45.887188+00:00",
+    "scraped_at": "2026-07-23T17:16:05.676704+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1589,
-    "ssl_count": 1589
+    "total_count": 1590,
+    "ssl_count": 1590
   },
   "opportunities": [
     {
@@ -52432,6 +52432,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "Clipboard 1 Shift\nMegan Joe | mjoe@Sowhatelse.org",
       "interests": "Events / Collections, Professional Skills",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1287835",
+      "needtitle": "Festa Julina Wheaton Summer Brazilian Festival",
+      "agencyname": "Casa da Cultura Brasileira EducArte",
+      "needdetails": "Casa da Cultura EducArte's first annual Festa Julina Wheaton Brazilian Summer Festival is an outdoor, high-quality, highly visible, free cultural event for the community that highlights the importance of Brazilian small businesses, artists, community, and cultural arts in Wheaton.\nThe festival celebrates São João or Fest Junina and will feature local Brazilian restaurants, local and touring live bands, an arts bazaar market, and traditional dances, like quadrilha, forró, capoeira and more. \nFesta Julina Wheaton: A Brazilian Summer Festival in Maryland\nSunday, July 26\n12:00 to 4:00 p.m.\n2424 Reedie Dr, Wheaton, MD\nSee event description, list of performers, restaurants, and arts market on the web page: \nhttps://www.educarteinc.\norg/event/festa-julina/\nEducArte will provide volunteers with sandwiches, snacks, drinks, and water.\nVolunteers must arrive by 11:00 a.m., one hour before the festival starts and support the event until 5:00 p.m., one hour after the end time.  \nObrigado!\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1287835",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1287835",
+      "needaddress": "Location Dot Shift\n 2424 Reedie Drive\n Wheaton, MD\n  20902",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jul 26, 2026",
+      "needdate": "Jul 26, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "11am - 5pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Arts / Culture",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
