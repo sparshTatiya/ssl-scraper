@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-27T20:03:26.892987+00:00",
+    "scraped_at": "2026-07-28T21:58:17.213753+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1606,
-    "ssl_count": 1606
+    "total_count": 1607,
+    "ssl_count": 1607
   },
   "opportunities": [
     {
@@ -52997,6 +52997,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1291163",
+      "needtitle": "Join the Fun - National Night Out on August 4",
+      "agencyname": "Affordable Homes & Communities (AHC)",
+      "needdetails": "Affordable Homes & Communities (AHC) organizes fun events for residents to relax and get to know each other.\nOn Tuesday, August 4, 4:30-7:30pm, we're hosting a National Night Out event for all ages at Allium Place in Silver Spring. There will be food and activities  so children and adults can have fun, relax and be together.\nVolunteers are needed to help with set-up, sign-in, activities, giving out snacks and clean-up. We're also looking for two volunteers to help conduct resident surveys.\nThe volunteer shift is 4:30-7:30pm. Sign up using this link or email \nvolunteer@ahcinc.org\n with questions.\nhttps://www.signupgenius.com/go/70A0844A4A728A6FA7-57157036-special#/\nAdult volunteers are preferred; students age 15+ who are able to follow instructions, work independently and be friendly are welcome. Volunteers will need to focus on residents and not use their cell phones while volunteering.\nStudent participation in this service project is at the discretion of the student’s parent/guardian. The nonprofit organization is responsible for maintaining student safety and privacy at any time the student is interacting with the nonprofit and its clients. The nonprofit organization will determine the number of SSL hours awarded based on the evidence submitted. Parents/guardians should contact the nonprofit directly with any questions and/or concerns. This service activity is designed to be completed within the safety of the student’s home.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1291163",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1291163",
+      "needaddress": "Location Dot Shift\n 4024 Gannon Rd\n Allium Place\n Silver Spring, MD\n  20910",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Aug 4, 2026",
+      "needdate": "Aug 4, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Events / Collections, Housing / Shelter",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
