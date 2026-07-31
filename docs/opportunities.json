@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-07-30T18:54:22.540708+00:00",
+    "scraped_at": "2026-07-31T00:04:33.744926+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1623,
-    "ssl_count": 1623
+    "total_count": 1624,
+    "ssl_count": 1624
   },
   "opportunities": [
     {
@@ -53560,6 +53560,39 @@
       "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1292211",
+      "needtitle": "Writer Needed",
+      "agencyname": "Animal Welfare League of Montgomery County",
+      "needdetails": "Are your creative juices looking for an opportunity to show off your writing skills, then AWLMC has an opportunity for you.  \nOur Shelter prepares a Bio for each and every cat in the Shelter, using the information provided by the owner. These Bios are extremely important as they are posted on our website along with pictures and present the cats to the public who are looking for a 4 legged Furry Feline Companion.  We look forward to hearing from you. \nSend us an email using this site and you will be immediately contact and we will be happy to answer any and all questions. \nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1292211",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1292211",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Animals, Professional Skills",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": false,
+      "isVirtual": true,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
