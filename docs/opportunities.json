@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-04T16:09:05.355891+00:00",
+    "scraped_at": "2026-08-05T12:48:55.895619+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1642,
-    "ssl_count": 1642
+    "total_count": 1643,
+    "ssl_count": 1643
   },
   "opportunities": [
     {
@@ -54186,6 +54186,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1295291",
+      "needtitle": "Help the Burtonsville Lions Scoop Ice Cream at Montgomery County Fair",
+      "agencyname": "Lions Club of Burtonsville",
+      "needdetails": "The Burtonsville Lions need assistance with our day at The Lion's Dairy Barn on August 20, 2026 from 4 PM to closing. Duties will include scooping ice cream, carrying buckets of ice cream from truck to barn, and clean up at closing.\nThis is one of our few fundraisers and all funds collected go back into the Burtonsville community.\nCome spend the evening with us and enjoy some free ice cream.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1295291",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1295291",
+      "needaddress": "Location Dot Shift\n Montgomery County Fair Ground\n Dairy Barn\n MD\n  20850",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Aug 20, 2026",
+      "needdate": "Aug 20, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "4:00 PM to 11:00 PM",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nKathy Booker | Burtonsvillelions@gmail.com | 3012564361",
+      "interests": "Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
