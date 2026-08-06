@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-05T12:48:55.895619+00:00",
+    "scraped_at": "2026-08-06T12:52:49.708699+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1643,
-    "ssl_count": 1643
+    "total_count": 1644,
+    "ssl_count": 1644
   },
   "opportunities": [
     {
@@ -54213,6 +54213,39 @@
       "needallowteams": true,
       "needvolunteersneeded": 0,
       "needcontact": "Clipboard 1 Shift\nKathy Booker | Burtonsvillelions@gmail.com | 3012564361",
+      "interests": "Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1295661",
+      "needtitle": "Adult Volunteers Needed for Burtonsville Day Parade & Celebration",
+      "agencyname": "Burtonsville Day Celebration, Inc",
+      "needdetails": "Adult volunteers are needed to assist with event parade and vendor/exhibitor setup. Parade setup will be at the Paint Branch High School parking lots, and the event setup will be at the Marilyn Praisner Community Recreation Center, both in Burtonsville MD.\nParade Setup:\n From 7:30 am to 10:00 am.  This involves managing and directing parade participant vehicles and floats to either to parking spaces or queueing up for the parade. Directions to be provided by parade coordinators. There will be a mandatory volunteer meeting on Thursday, September 17 at 7:00 pm for volunteer briefing.  This meeting will be held at the Marilyn Praisner Community Recreation Center, at 14906 Old Columbia Pike, Burtonsville, MD.\nEvent Setup:\n From 8:00 am to 12:00 pm. This involves managing and directing event vendors' and exhibitors' vehicles to their assigned event spaces for off-loading of materials and directing the vehicles to appropriate parking spaces. There will be a mandatory volunteer meeting on Thursday September 17 at 7:00 pm for volunteer briefing. This meeting will be held at the Marilyn Praisner Community Recreation Center at 14906 Old Columbia Pike, Burtonsville, MD.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1295661",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1295661",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "7:30 am to 10:00 am; 8:00 am to 12:00 pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
       "interests": "Events / Collections",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
