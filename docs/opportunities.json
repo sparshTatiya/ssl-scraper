@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-07T14:48:31.274535+00:00",
+    "scraped_at": "2026-08-07T19:48:18.157510+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1657,
-    "ssl_count": 1657
+    "total_count": 1658,
+    "ssl_count": 1658
   },
   "opportunities": [
     {
@@ -54676,6 +54676,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Animals",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1297294",
+      "needtitle": "CJCA 56th Annual Chicken and Crab Feast",
+      "agencyname": "Cabin John Citizens Association",
+      "needdetails": "Cabin John Citizens Association is providing our largest community event of the year: the 56th Annual Cabin John Chicken and Crab Feast on Saturday, September 19 from 2-6 pm at the Clara Barton Neighborhood Recreation Center. The event draws about 500 families, friends and neighbors of all ages for delicious food, refreshing beverages, live music, kid activities and the community spirit that makes Cabin John such a special place to live. Volunteers are needed to help with food prep, cooking, serving, event setup and clean up, and staffing the ticket table. MCPS SSL opportunity.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1297294",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1297294",
+      "needaddress": "Location Dot Shift\n Clara Barton Neighborhood Recreation Center\n 7425 MacArthur Boulevard\n Cabin John, MD\n  20818",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Events / Collections",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
