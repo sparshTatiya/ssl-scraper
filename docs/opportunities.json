@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-07T19:48:18.157510+00:00",
+    "scraped_at": "2026-08-10T14:52:49.632405+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1658,
-    "ssl_count": 1658
+    "total_count": 1659,
+    "ssl_count": 1659
   },
   "opportunities": [
     {
@@ -54713,6 +54713,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1297694",
+      "needtitle": "Library Art Workshop - Art Helpers Needed!",
+      "agencyname": "Wheaton Arts Parade",
+      "needdetails": "Help us with the following activity: \n\"Create some fun summery decorations with twigs, yarn, and paper. We provide all art supplies and instruction. Bring your imagination! All ages welcome, but the activity is designed for kids 4-12.\" \nYou must arrive by 12:30 to sign-in and help set up the room and materials. You then stay for the full workshop until 3PM helping families make the art and help in anyway you can with clean up afterwards. \nPlease wear comfortable , family friendly attire and comfortable closed-toed shoes such as sneakers. (no flipflops or sandals) \nLOCATED AT WHEATON LIBRARY MULTIPURPOSE ROOM \nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1297694",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1297694",
+      "needaddress": "Location Dot Shift\n Wheaton Library\n 11701 Georgia Ave,\n Wheaton, MD\n  20902",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Aug 16, 2026",
+      "needdate": "Aug 16, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Arts / Culture, Education / Mentoring, Events / Collections, Professional Skills",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
