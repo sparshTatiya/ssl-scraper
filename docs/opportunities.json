@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-11T18:53:49.140006+00:00",
+    "scraped_at": "2026-08-11T21:39:40.141803+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1663,
-    "ssl_count": 1663
+    "total_count": 1664,
+    "ssl_count": 1664
   },
   "opportunities": [
     {
@@ -54878,6 +54878,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1297943",
+      "needtitle": "Compact Bicycles for Shipment for Madagascar",
+      "agencyname": "Bikes For The World",
+      "needdetails": "We need help preparing donated bikes for an upcoming shipment to one of our partners in Africa. We will be loading for Madagascar this coming week and Rwanda soon after. Volunteers will be using specific bike tools to remove pedals and compact handlebars for easier packing. No experience with bikes is necessary; we can train you in seconds! You can expect to use tools and handle greasy bikes, so dress to get dirty. \nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1297943",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1297943",
+      "needaddress": "Location Dot Shift\n 11720 Parklawn Dr\n Rockville, MD\n  20852",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Aug 15, 2026",
+      "needdate": "Aug 15, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "12pm-2pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
