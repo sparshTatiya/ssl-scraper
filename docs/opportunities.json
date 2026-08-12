@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-11T21:39:40.141803+00:00",
+    "scraped_at": "2026-08-12T16:51:53.155951+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1664,
-    "ssl_count": 1664
+    "total_count": 1665,
+    "ssl_count": 1665
   },
   "opportunities": [
     {
@@ -54912,6 +54912,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1298691",
+      "needtitle": "Children's Day at Brookside Gardens",
+      "agencyname": "Brookside Gardens",
+      "needdetails": "Join Brookside Gardens as a volunteer for Children's Day.\nChildren and their families will explore the science and art of gardening through child-driven art projects and engaging science activities. Kids will rotate through our outdoor activity stations designed to educate and entertain.\nVolunteers should dress family-friendly and for the weather as the event is outdoors.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1298691",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1298691",
+      "needaddress": "Location Dot Shift\n 1800 Glenallan Ave\n Wheaton, MD\n  20904",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Sep 19, 2026",
+      "needdate": "Sep 19, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "9:30am to 2:30pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nKevin Stewart | mcp-Gardenvolunteer@montgomeryparks.org",
+      "interests": "Environment",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": true,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
