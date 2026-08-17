@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-14T20:25:14.140286+00:00",
+    "scraped_at": "2026-08-17T14:21:06.393890+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1710,
-    "ssl_count": 1710
+    "total_count": 1711,
+    "ssl_count": 1711
   },
   "opportunities": [
     {
@@ -56431,6 +56431,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1301011",
+      "needtitle": "Bethesda Help Back-to-School Food Drive",
+      "agencyname": "Bethesda Help, Inc.",
+      "needdetails": "Since 1968, Bethesda Help (\nhttps://www.bethesdahelp.org/\n)\n has been there to provide food assistance to our\n neighbors in need in Bethesda and the surrounding areas. Now, for the 58\nth\n time, we are here to help as Montgomery County children head back to\n school.\nThe kids will be excited about\n the start of a new school year, but many of their parents will be wondering if\n they can provide the nutritious food their children need to develop strong\n bodies and minds, and they have reason to be concerned.\nSocial safety net services have been\n cut for 4,900 of our county neighbors, including their Supplemental Nutrition\n Assistance Program (SNAP) benefits. These families are turning to food pantries\n like ours for help. The increase in food requests, along with the rising cost\n of the basic food we purchase for our pantry and a decrease in food donations,\n means our stock of food is low. \nAs you can see, your support of Bethesda Help is critical at\n this time. We stand ready and able to deliver food, but we need your help to\n keep the Bethesda Help pantry stocked.\nHow\n can \nyou \nhelp?\n⸙\n Feed Our\n Families: Make a financial \ndonation\n⸙\n Stock Our\n Pantry: Buy essential pantry items through our \nAmazon Wish List\n⸙\n Hold a Food Drive: Hold a food drive in your neighborhood or through your\n social\ngroups \nSponsor a Food\n Drive\nThanks a million\n for your support of Bethesda Help as we work to help alleviate hunger for\n families and kids as a new school year begins. We are grateful!\nInterested in volunteering?\nWe Need You!\nSee:\nVolunteer",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1301011",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1301011",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": true,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
