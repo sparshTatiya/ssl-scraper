@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-17T14:21:06.393890+00:00",
+    "scraped_at": "2026-08-18T14:26:37.970367+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1711,
-    "ssl_count": 1711
+    "total_count": 1712,
+    "ssl_count": 1712
   },
   "opportunities": [
     {
@@ -56464,6 +56464,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": true,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1301024",
+      "needtitle": "Help Dogs Get Adopted with Lucky Dog in Falls Church on September 20th!!",
+      "agencyname": "Lucky Dog Animal Rescue",
+      "needdetails": "Lucky Dog Animal Rescue\n has an adoption event on\n Sunday, September 20th\n at the \nFalls Church PetSmart.\nCome spend the afternoon with a Lucky Dog! We need dog handlers to hold a dog's leash during our adoption event and talk up the dog to potential adopters. We also need drivers to drive Lucky Dogs to and from our adoption event. Handler check-in is at \n11:15 am \n(dog check-in starts at 11:45 am). You should plan to stay until \n3:30 pm\n.\nThe final day to sign up for any event is the Friday before that specific event.\nSigning up on this platform does NOT guarantee you a volunteer spot. On the Monday before the event, our events team will reach out to reconfirm your availability. You MUST respond to that email to be added to the list of volunteers for the event.\nMust be at least 7 years old to volunteer, and anyone under the age of 18 must have a parent present at all times (the parent must be the one physically holding the dog's leash). Please note that you MUST have one adult in attendance for each child.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1301024",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1301024",
+      "needaddress": "Location Dot Shift\n 6100 - A Arlington Blvd\n Falls Church, VA\n  22044",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Sep 20, 2026",
+      "needdate": "Sep 20, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "11:15am-3:30pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Animals",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
+      "isVirtual": false,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
