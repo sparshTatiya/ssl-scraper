@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-18T17:59:58.681629+00:00",
+    "scraped_at": "2026-08-18T19:07:19.570162+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1713,
-    "ssl_count": 1713
+    "total_count": 1714,
+    "ssl_count": 1714
   },
   "opportunities": [
     {
@@ -56530,6 +56530,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": true,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1301789",
+      "needtitle": "Treasurer for Board of Directors",
+      "agencyname": "Upcounty Community Resources, Inc. (UCR)",
+      "needdetails": "We are in need of a treasurer for our Board of Directors. Must have experience with financial planning, nonprofits, projections, audits and trends.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1301789",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1301789",
+      "needaddress": "Location Dot Shift\n P.O. Box 2982\n Germantown, MD\n  20875",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
