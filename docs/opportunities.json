@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-18T14:26:37.970367+00:00",
+    "scraped_at": "2026-08-18T17:59:58.681629+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1712,
-    "ssl_count": 1712
+    "total_count": 1713,
+    "ssl_count": 1713
   },
   "opportunities": [
     {
@@ -56497,6 +56497,39 @@
       "isFamilyFriendly": true,
       "isOutdoors": true,
       "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1301227",
+      "needtitle": "Member, Board of Directors",
+      "agencyname": "Science is Elemental, Inc.",
+      "needdetails": "Company Description\nAs a 501 Science is Elemental's mission is to improve science education by fostering a deeper understanding and respect for the scientific process among all high school graduates, through starting or improving science education in the early grades. In particular, SIE seeks to bring hands-on, integrated workshops to students who do not yet show interest or aptitude in the sciences. In addition, SIE supports teachers, and seeks to introduce what scientists do to young children.\nRole Description\nThis is a volunter role for a Board Member located in anywhere in the U.S.. The Board Member will be responsible for providing strategic leadership, ensuring the organization’s mission and goals are met efficiently. Responsibilities include attending regular board meetings, participating in fundraising activities, and assisting in policy formulation and oversight. The Board Member will also engage with various stakeholders to build and maintain relationships that support the organization's objectives. We are very interested in people with fundraising experience.\nIf you wish to talk to someone directly, please email\ninfo@scienceiselemental.org\nQualifications\nNote: No one person would be expected to have all or even most of these qualifications.\nKnowledge of and/or experience in the K-12 education space in the U.S.\nExperience in strategic leadership and governance\nKnowledge of fundraising and resource development\nUnderstanding of educational policies and science curriculum\nCommitment to the mission and values of Science is Elemental",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1301227",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1301227",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring, Professional Skills",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": true,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
