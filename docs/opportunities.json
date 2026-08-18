@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-18T19:07:19.570162+00:00",
+    "scraped_at": "2026-08-18T20:47:41.522447+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1714,
-    "ssl_count": 1714
+    "total_count": 1715,
+    "ssl_count": 1715
   },
   "opportunities": [
     {
@@ -56557,6 +56557,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1302108",
+      "needtitle": "SVPC August Horse Trials 2026",
+      "agencyname": "Seneca Valley Pony Club",
+      "needdetails": "Seneca Valley Pony Club is hosting a USEA recognized event at Bittersweet Field in Poolesville on Saturday, August 29 and Sunday, August 30. This is a chance to earn up to 8 hours of SSL per day being outside and helping put on a world-class sporting event. \nWe have jobs for people with no horse experience, including parking team members who help direct competitors and spectators, dressage score runners who bring scores from judges to the scoring team, show jumping jump crew who help replace poles that are knocked down and move jumps between levels and for cross country jump judges for high school age and older volunteers. \nFor those who know horses we have dressage bit check and warm up, show jumping warm up, in-gate and out-gate and cross country warm up and jump judges for high school age and older volunteers. \nView open positions and sign up online today\n. We hope to have you on our team! \nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1302108",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1302108",
+      "needaddress": "Location Dot Shift\n 14401 B Partnership Road\n Poolesville, MD\n  20837",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Animals, Recreation / Sports",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
