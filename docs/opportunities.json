@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-20T14:29:48.034595+00:00",
+    "scraped_at": "2026-08-20T15:06:14.537785+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1726,
-    "ssl_count": 1726
+    "total_count": 1727,
+    "ssl_count": 1727
   },
   "opportunities": [
     {
@@ -56953,6 +56953,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Events / Collections, Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1303086",
+      "needtitle": "MCPS High School Assistants Needed for 6th Grade Outdoor Education Program",
+      "agencyname": "MCPS Division of School Leadership and Improvement",
+      "needdetails": "MCPS High School Assistants Needed for 6th Grade Outdoor Education Program\nMany middle schools seek high\nschool volunteers to assist with their Grade 6 Outdoor Education program, and\nthe schools listed on the \nSY27MCPS HS Outdoor Ed Assistant Interest form\n have asked for assistance in\nidentifying potential assistants to work with them during Outdoor Ed. \nHigh school assistants who are\nselected to support a middle school will accompany middle school students and\nstaff to one of the three sites MCPS utilizes for a 3-day, 2-night\nenvironmental education program and will assist with supervision, instruction,\nand activities throughout that program. \nThere is no cost for high school assistants to participate,\nmeals are provided, and assistants will have dedicated study time each day.\nHigh school assistants will need to submit a permission slip signed by a parent\nor guardian and must also receive permission from their teachers and\nadministrators to participate.\nHigh school assistants can earn up\nto 16 SSL hours through their work as an Outdoor Education Assistant.\nPlease note: By submitting the form\nbelow, you are expressing your interest in serving as an Outdoor\nEducation Assistant; it does not indicate that you have been\nselected to fill that role. Please note that schools listed on the\ninterest form get updated as schools request support through the year.\nYour name and contact information\nwill be shared with staff from the middle school(s) you select, and those staff\nmembers will contact you to share next steps regarding their selection\nprocess.  All decisions on high school assistant selection are made by the\nstaff in each middle school.\nWe appreciate your consideration and if you are interested,\nplease complete and submit this\nform. This is a fantastic opportunity for any students who have\na strong interest in working with children and have a strong interest in the\noutdoors and the environment!\nThis form must be completed\nby MCPS students using their MCPS Gmail accounts.\nMCPS students, please DO NOT RESPOND to this opportunity.\nInstead, please complete and submit \nthis form\n to express your interest in participating in this opportunity. \nThis form must be completed by MCPS students using their MCPS gmail accounts.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1303086",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1303086",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring, Environment",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
