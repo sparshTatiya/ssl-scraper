@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-20T21:21:50.219648+00:00",
+    "scraped_at": "2026-08-21T18:27:44.093208+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1733,
-    "ssl_count": 1733
+    "total_count": 1734,
+    "ssl_count": 1734
   },
   "opportunities": [
     {
@@ -57190,6 +57190,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1302347",
+      "needtitle": "Montgomery County Council Youth Town Hall - Tuesday, September 29, 2026 (6PM - 7:30PM)",
+      "agencyname": "MCPS Division of School Leadership and Improvement",
+      "needdetails": "Montgomery County Youth Town Hall \nSeptember 29, 2026 (6 p.m. - 7:30 p.m.)\nThe Montgomery County Council will host their annual Youth Town Hall meeting on Tuesday, September 29, 2026. Please join our Montgomery County Councilmembers and MCPS student leaders as we discuss important youth centric issues. Student attendees will be able to share their questions and concerns and participate in a dialogue with our county's leadership.\nAll registered attendees may attend in person or on Zoom. Those who choose to attend virtually will receive the link to the Zoom link the day of the program (via email on September 29, 2026).\nTuesday, September 29, 2026\nStella Werner Council Office Building, 100 Maryland Ave, Rockville, MD 20850 \nMCPS Students, please \nDO \nNOT\n respond to this opportunity. All students may participate and earn SSL hours by following the directions below: \nPlease submit your RSVP (\nhttps://tinyurl.com/MoCoYouthTH2026\n) and any questions you would like for us to share with the County Council.\nAn SSL advocacy exercise will be presented during the program and students must attend the program and complete the advocacy exercise in order to earn \n2 SSL hours\n.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1302347",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1302347",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Sep 29, 2026",
+      "needdate": "Sep 29, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "6PM - 7:30PM; 6PM - 7:30PM; 6PM - 7:30PM",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": true,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
