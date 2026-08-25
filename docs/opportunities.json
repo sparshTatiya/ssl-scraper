@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-24T22:51:51.323917+00:00",
+    "scraped_at": "2026-08-25T19:54:11.020895+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1741,
-    "ssl_count": 1741
+    "total_count": 1742,
+    "ssl_count": 1742
   },
   "opportunities": [
     {
@@ -57448,6 +57448,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "Clipboard 1 Shift\nJenny Apostol | jennyapostoldipaul@gmail.com",
       "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1304519",
+      "needtitle": "Brewer's Ball",
+      "agencyname": "Cystic Fibrosis Foundation",
+      "needdetails": "Volunteer at the Brewer’s Ball and help bring this signature fundraising event to life! We’re seeking friendly, dependable volunteers for shifts from 4:00-9:00 PM or 6:00-11:00 PM. Smart casual dress required. Sign up today and make a difference while being part of a memorable evening.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1304519",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1304519",
+      "needaddress": "Location Dot Shift\n 101 District Square NW\n Washington, DC\n  20024",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Sep 19, 2026",
+      "needdate": "Sep 19, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nGabi Santos | gsantos@cff.org | 3019063715",
+      "interests": "Events / Collections, Professional Skills, Technology",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
