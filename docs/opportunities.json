@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-25T19:54:11.020895+00:00",
+    "scraped_at": "2026-08-25T23:47:03.700043+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1742,
-    "ssl_count": 1742
+    "total_count": 1743,
+    "ssl_count": 1743
   },
   "opportunities": [
     {
@@ -57481,6 +57481,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "Clipboard 1 Shift\nGabi Santos | gsantos@cff.org | 3019063715",
       "interests": "Events / Collections, Professional Skills, Technology",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1305003",
+      "needtitle": "Need Help With Foot Golf Event!",
+      "agencyname": "SEEC",
+      "needdetails": "We are seeking 2 volunteers to help with our Footgolf Fundraising Event on Sunday, October 4th 3:30-6:30pm, and we need help with running the event, including set-up, check-in, take-down, etc.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1305003",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1305003",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Oct 4, 2026",
+      "needdate": "Oct 4, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Events / Collections",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
