@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-08-27T20:52:52.403933+00:00",
+    "scraped_at": "2026-08-31T17:47:07.822196+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1757,
-    "ssl_count": 1757
+    "total_count": 1758,
+    "ssl_count": 1758
   },
   "opportunities": [
     {
@@ -57980,6 +57980,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1307498",
+      "needtitle": "CALLING ALL STUDENT & ADULT VOLUNTEERS!",
+      "agencyname": "CB Events LLC",
+      "needdetails": "Be Part of the 2026 Halloween, Navratri & Diwali Bash!\nDo you love to sing? Play an instrument? Dance?\nHave a special talent - or simply want to volunteer and help?\nWe are looking for \nMiddle School & High School students, college students, and adults\n to join us as \nvolunteers and performers\n at our \n2026 Halloween, Navratri & Diwali Bash!\nWhether you want to \nperform on stage, help behind the scenes, assist with activities, or simply contribute your time and energy\n, there is a place for you!\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1307498",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1307498",
+      "needaddress": "Location Dot Shift\n 4143 Ayodhya Way\n Ijamsville, MD\n  21754",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "7:00pmto 9:00pm; 1:00pmto 7:00pm; 2:00pmto 8:00pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nAnurag Gupta | eventscabinbranch@gmail.com",
+      "interests": "Arts / Culture, Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
