@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-11T14:46:03.042876+00:00",
+    "scraped_at": "2026-09-11T17:28:00.799970+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1790,
-    "ssl_count": 1790
+    "total_count": 1791,
+    "ssl_count": 1791
   },
   "opportunities": [
     {
@@ -59071,6 +59071,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": true,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1313643",
+      "needtitle": "Help Kids Cast a Line! Earn SSL Hours at Bohrer Park | Sept. 13",
+      "agencyname": "Success Factors Foundation (formerly No Gripes No Worries)",
+      "needdetails": "Spend your Sunday by the pond helping kids cast a line and cheering them on when something bites! Join the Youth Fishing League at Bohrer Park on Sunday, September 13th, 2026.\nEarn MCPS SSL hours while helping kids learn to fish. No fishing experience or driver’s license required. We’ll show you what to do!\nYou can help welcome families, set up the event, lend a hand with fishing gear, or help kids learn about fish and the environment. Adult team members will provide orientation and supervise the activities.\nVolunteer hours: 8 a.m.–1 p.m. Volunteers ages 12 and up are welcome. If you can only stay for part of the day, contact Kwasi to work out a shift.\nWhere: Bohrer Park, 506 South Frederick Avenue, Gaithersburg, MD 20877.\nSign up through this listing, or contact Kwasi Frye at \nkwasi@theyouthfishingleague.com\n with questions.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1313643",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1313643",
+      "needaddress": "Location Dot Shift\n 506 South Frederick Avenue\n Bohrer Park\n Gaithersburg, MD\n  20877",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Sep 13, 2026",
+      "needdate": "Sep 13, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nKwasi Frye | kwasi@theyouthfishingleague.com",
+      "interests": "Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": true,
+      "isVirtual": false,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
