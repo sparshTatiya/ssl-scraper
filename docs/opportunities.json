@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-10T22:11:33.616948+00:00",
+    "scraped_at": "2026-09-11T14:46:03.042876+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1789,
-    "ssl_count": 1789
+    "total_count": 1790,
+    "ssl_count": 1790
   },
   "opportunities": [
     {
@@ -59038,6 +59038,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1313646",
+      "needtitle": "Join the Montgomery County School Health Council!",
+      "agencyname": "MCPS Division of School Leadership and Improvement",
+      "needdetails": "The School Health Council is an advisory and advocacy group dedicated to promoting the health and well-being of school-age children and youth in Montgomery County. It is composed of members representing broad segments of the community with a common commitment to:\nAdvocating for cooperation between health and educational agencies of government\nForging public-private partnerships to support school health programs and services\nFacilitating forums for the discussion of community ideas, questions, and concerns\nDeveloping specific recommendations to the Department of Health and Human Services (DHHS) and Montgomery County Public Schools (MCPS) to assure health-conscious programs and practices that are of the highest quality and that are regularly and systematically evaluated\nRaising awareness of the importance of school health programs among politicians, the media, potential resource providers, and the community at large\nThe School Health Council supports the Whole School, Whole Community, Whole Child (WSCC) model. This integrates the eight components of coordinated school health with the tenets of a whole child approach, along with the need for alignment, integration and collaboration between health, education, students, families, local business, the media, and the community.\nWe work to enhance student health instruction, health services, physical activity and nutrition, physical and mental safety and school and community programs by:\nAssuring and promoting the health, safety and well-being of all students as a priority\nMaximizing the effective delivery of school health programs and services\nAssuring the accountability and transparency of health and wellness services\nEnhancing school health program services and cost-effectiveness\nThe School Health Council is dedicated to helping children and youth be healthy, safe, engaged, supported and challenged, thus allowing them to reach their full potential.\nHealthy, successful students help build strong communities.\nIf you are interested in serving on the School Health Council, please click on the links below to learn more and apply/express interest:\nBoard of Directors-Montgomery County Student Health Council Application\n (Due Date: September 30, 2026)\nMontgomery County School Health Council Meeting Interest Form",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1313646",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1313646",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": true,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
