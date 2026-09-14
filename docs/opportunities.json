@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-14T18:59:12.588890+00:00",
+    "scraped_at": "2026-09-14T22:20:04.816245+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1817,
-    "ssl_count": 1817
+    "total_count": 1818,
+    "ssl_count": 1818
   },
   "opportunities": [
     {
@@ -59961,6 +59961,39 @@
       "isSSL": true,
       "isFamilyFriendly": false,
       "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1314601",
+      "needtitle": "Green Acre Habitat Restroration Work Day",
+      "agencyname": "Little Falls Watershed Alliance",
+      "needdetails": "Remove invasive vines and non-native plants (Porcelain berry, Vinca minor and English ivy). We will be uncovering native plants such as: Rough horsetail, one of the oldest plants in Maryland that existed during the Carboniferous period (280-345 million years ago), Jewelweed which attracts the Ruby-Throated Hummingbird, and canopy trees. \nLearn more about the Green Acres Habitat here: \nhttps://www.lfwa.org/meadow-green-acres \nMeet at Little Falls Drive and Yorktown Road. The closest address for GPS is 5301 Yorktown Road.\nBring gloves or clippers or use ours. Wear long sleeves, long pants and closed toe shoes and bring water to drink.\nRegistration and complete details at \nLFWA.org/events\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1314601",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1314601",
+      "needaddress": "Location Dot Shift\n 5301 Yorktown Road\n Meet at Little Falls Drive and Yorktown Road\n Bethesda, MD\n  20816",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Sep 19, 2026",
+      "needdate": "Sep 19, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "10am to 12pm",
+      "needagerequirements": "Ages 14 and under must be accompanied by adult supervisor.",
+      "minAge": 14,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nJane Padelford Gomes | j.padelford@gmail.com",
+      "interests": "Environment",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
