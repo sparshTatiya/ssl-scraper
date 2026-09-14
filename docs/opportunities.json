@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-14T16:44:38.532205+00:00",
+    "scraped_at": "2026-09-14T18:59:12.588890+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1816,
-    "ssl_count": 1816
+    "total_count": 1817,
+    "ssl_count": 1817
   },
   "opportunities": [
     {
@@ -59923,6 +59923,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Events / Collections",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1314788",
+      "needtitle": "Student Volunteers Needed – Foundation to Fight H-ABC Pickleball Event",
+      "agencyname": "Foundation to Fight H-abc",
+      "needdetails": "Date:\nSaturday, September 26, 2026\nOrganization:\nFoundation to Fight H-ABC\nOpportunity Description:\nThe Foundation to Fight H-ABC is seeking student volunteers to help with our community pickleball event supporting our mission to raise awareness of H-ABC (TUBB4A-related leukodystrophy), an ultra-rare neurological disease that primarily affects children and young adults.\nThis is a hands-on opportunity for students to learn about rare disease, disability, nonprofit service, and the important role community organizations play in supporting affected families and advancing research.\nStudent volunteers will help our team with a variety of event activities, which may include:\n• Setting up tables, signs, educational materials, and event areas\n• Greeting participants and assisting with registration/check-in\n• Directing players and guests to courts and event activities\n• Distributing H-ABC educational and awareness materials\n• Helping with refreshments and general event support\n• Assisting Foundation representatives with awareness activities\n• Helping keep event areas organized throughout the event\n• Event breakdown and cleanup\nPreparation and Learning:\nAt the beginning of their shift, volunteers will receive a brief introduction to H-ABC, the families affected by the disease, and the mission of the Foundation to Fight H-ABC. Students will also receive instructions about their volunteer responsibilities and how their work contributes to the success of the event and the Foundation’s broader community mission.\nService/Action:\nStudents will work alongside Foundation representatives and other volunteers to help create an organized, welcoming, and accessible community event. Their service will allow Foundation staff and volunteers to focus on educating participants about H-ABC, connecting with supporters, and building greater awareness of this rare disease.\nReflection:\nStudents will be encouraged to consider what they learned about rare disease, disability, community service, and how nonprofit organizations rely on volunteers to serve their communities.\nVolunteer Requirements:\nStudent volunteers should be dependable, courteous, comfortable interacting with the public, and willing to help wherever needed. No pickleball experience is necessary. Adult representatives of the Foundation to Fight H-ABC will supervise student volunteers throughout the event.\nThis opportunity is intended to provide meaningful community service and education. Student volunteers will not be responsible for directly soliciting monetary donations.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1314788",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1314788",
+      "needaddress": "Location Dot Shift\n 4942 Boiling Brook Pkwy\n Rockville \n  20852",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Sep 26, 2026",
+      "needdate": "Sep 26, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Recreation / Sports",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
