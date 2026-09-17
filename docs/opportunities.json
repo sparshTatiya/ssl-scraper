@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-17T20:50:42.822877+00:00",
+    "scraped_at": "2026-09-17T23:19:47.247711+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1835,
-    "ssl_count": 1835
+    "total_count": 1836,
+    "ssl_count": 1836
   },
   "opportunities": [
     {
@@ -60550,6 +60550,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1314699",
+      "needtitle": "Chicka Chicka Boom Boom",
+      "agencyname": "Imagination Stage",
+      "needdetails": "Volunteer ushers will assist our Front of House team in opening the house/theatre. We require volunteer ushers to be 16 years old and above. No exceptions.   Students are expected to arrive punctually, report directly to the Lead House Manager, direct patrons to their correct seats, answer guest inquiries accurately, and assist with program distribution. They must demonstrate active problem-solving and professional conduct throughout the performance.      \n   Students will learn and develop core competencies related to theatre/performing arts curricula by learning and analyzing theatre logistics and audience engagement.  Providing students with firsthand knowledge into arts administration, practice real-world communications, and theatre operations.      \n    We are a non-profit organization requiring essential logistical support to keep the arts accessible, manage safe public performances, and ensure a seamless cultural experience for the local community.  After volunteer ushering with Imagination Stage, all students will be able to apply  communication, problem-solving, and guest engagement skills to future theatrical endeavors.\n     We appreciate all of our volunteers to come dressed in all black attire; long sleeve tops, pants or knee length skirts, and close toed shoes (please no crocs). Prior to the scheduled shift you will receive a confirmation email. If you are unable to make it to the shift that you registered for, immediate notification of your absence is required. No call, no shows will not be invited back to volunteer.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1314699",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1314699",
+      "needaddress": "Location Dot Shift\n 4908 Auburn Ave\n Bethesda, MD\n  20814",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "12:15pmto 2:15pm; 3:15pmto 5:15pm; 9:15amto 11:15am",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Arts / Culture",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
