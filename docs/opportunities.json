@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-17T17:53:54.065044+00:00",
+    "scraped_at": "2026-09-17T20:50:42.822877+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1834,
-    "ssl_count": 1834
+    "total_count": 1835,
+    "ssl_count": 1835
   },
   "opportunities": [
     {
@@ -60522,6 +60522,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1316411",
+      "needtitle": "Stay Active and Independent for Life Leader",
+      "agencyname": "Bone Builders (Dept. Of Health And Human Services - HHS)",
+      "needdetails": "Stay Active and Independent for Life (SAIL) is a strength, balance and fitness program for adults 65 and older. Performing exercises that improve strength, balance and fitness are the single most important activity that adults can do to stay active and reduce their chances of falling. The entire curriculum of activities in the SAIL Program can help improve strength and balance, if done regularly.\nWe are looking for volunteer leaders who have some experience with aerobic activity and strength training. We will provide all training. Leaders must be enthusiastic and have a desire to help seniors stay healthy and active.\nVarious class locations in Montgomery County, MD.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1316411",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1316411",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
