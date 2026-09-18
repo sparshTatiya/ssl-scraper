@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-17T23:19:47.247711+00:00",
+    "scraped_at": "2026-09-18T19:50:22.560444+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1836,
-    "ssl_count": 1836
+    "total_count": 1837,
+    "ssl_count": 1837
   },
   "opportunities": [
     {
@@ -60583,6 +60583,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Arts / Culture",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1316807",
+      "needtitle": "Holiday Drive 2026 (November): Event Clean-Up",
+      "agencyname": "City of Rockville: Housing and Community Development",
+      "needdetails": "NOTE: In order to register for an opportunity, you must click the \"Respond\" button again after you submit any missing qualifications. You are only considered registered once the \"Respond\" button changes to \"Unregister,\" and once you receive a confirmation email thanking you for your interest.\nFollowing our November event, help us clean and prepare our facility for our upcoming December event! \nFor over 50 years, the City of Rockville has operated an annual Holiday Drive that relies on a collaborative partnership with local churches, schools, civic organizations, service clubs, businesses, social service agencies, and individuals working together to distribute holiday baskets to Rockville families and seniors in need. Learn more at \nrockvillemd.gov/holidaydrive\n.\nThis opportunity is available for student volunteers to earn SSL hours. Student participation in this service project is at the discretion of the student’s parent/guardian and must be completed outside of school hours. Parents/guardians should contact the nonprofit organization directly with any questions and/or concerns. The nonprofit is responsible for maintaining student safety and privacy at any time the student is interacting with the nonprofit and its clients. The nonprofit will determine the number of SSL hours awarded based on the evidence submitted. For SSL hours to be added to a student’s record, students must submit MCPS Form 560-51, Student Service Learning Activity Verification Form, to the school SSL coordinator by the due dates on the form (no later than the first Friday in May), which can be found at \nhttp://tinyurl.com/SSLHoursForm\n. Students will need to complete sections 1 and 3 of MCPS Form 560-51 in full. In lieu of section 2 of MCPS Form 560-51, students should attach the “SSL Hour Form” completed and provided to the student by the City of Rockville supervisor.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1316807",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1316807",
+      "needaddress": "Location Dot Shift\n 601 Harrington Road\n Rockville, MD\n  20850",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "1:01pmto 4:01pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
