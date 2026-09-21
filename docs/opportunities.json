@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-18T19:50:22.560444+00:00",
+    "scraped_at": "2026-09-21T16:43:52.095370+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1837,
-    "ssl_count": 1837
+    "total_count": 1838,
+    "ssl_count": 1838
   },
   "opportunities": [
     {
@@ -60613,6 +60613,39 @@
       "minAge": 0,
       "maxAge": 0,
       "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1317919",
+      "needtitle": "Booth Support - We Are Artistic Civic Engagement Fair",
+      "agencyname": "We Are Artistic",
+      "needdetails": "We are looking for volunteers to assist with our booth at the\nCivic Engagement Fair at Edmund Burke School\n. We need volunteers to help speak with students about our organization.\nA tabling guide will be provided with all the information you need, so no prior experience is necessary. We would greatly appreciate your support and hope you'll consider joining us!\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1317919",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1317919",
+      "needaddress": "Location Dot Shift\n 4101 Connecticut Ave NW,\n Washington , DC\n  20008",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Oct 8, 2026",
+      "needdate": "Oct 8, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "",
