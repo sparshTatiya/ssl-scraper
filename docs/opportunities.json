@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-09-28T18:20:20.077878+00:00",
+    "scraped_at": "2026-09-29T00:28:19.885877+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1871,
-    "ssl_count": 1871
+    "total_count": 1872,
+    "ssl_count": 1872
   },
   "opportunities": [
     {
@@ -61743,6 +61743,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1320602",
+      "needtitle": "Mock Interviewers Needed!",
+      "agencyname": "SEEC",
+      "needdetails": "We need volunteers to help conduct mock interviews for our job seekers in our Learn-To-Earn program. \nThe Learn to Earn program supports people on their journey to employment by highlighting current skills and helping gain new skills. It helps people facing barriers to finding and keeping a job and integrates classroom lessons into the weekly schedules and daily lives of job seekers. Staff teach job related skills with a curriculum that includes technology, building relationships, and emotional regulation.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1320602",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1320602",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Oct 5, 2026",
+      "needdate": "Oct 5, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Professional Skills, Education / Mentoring, Recreation / Sports, Technology",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
