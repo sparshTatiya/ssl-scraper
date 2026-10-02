@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-01T23:18:37.970374+00:00",
+    "scraped_at": "2026-10-02T16:27:11.903187+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1898,
-    "ssl_count": 1898
+    "total_count": 1899,
+    "ssl_count": 1899
   },
   "opportunities": [
     {
@@ -62635,6 +62635,39 @@
       "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": true,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1320586",
+      "needtitle": "Help with Arts & Crafts Tables at the Winter Jubilee at F. Scott Fitzgerald Theatre",
+      "agencyname": "City of Rockville: Recreation and Parks (Civic Center Complex)",
+      "needdetails": "NOTE: In order to register for an opportunity, you must click the \"Respond\" button again after you submit any missing qualifications. You are only considered registered once the \"Respond\" button changes to \"Unregister,\" and once you receive a confirmation email thanking you for your interest.\nThe \nF. Scott Fitzgerald Theatre\n is excited to host our \nWinter Jubilee Program\n, and we’re looking for a few enthusiastic volunteers to help with our \nArts & Crafts Tables\n!\nVolunteers will assist kids and families with simple, fun, winter-themed crafts before and after performances. No special skills are required, just a friendly attitude and a willingness to help others get creative.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1320586",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1320586",
+      "needaddress": "Location Dot Shift\n F. Scott Fitzgerald Theatre and Social Hall\n 603 Edmonston Drive\n Rockville, MD\n  20851",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Dec 19, 2026",
+      "needdate": "Dec 19, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": false,
+      "isVirtual": false,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
