@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-08T17:40:54.855701+00:00",
+    "scraped_at": "2026-10-08T19:37:16.611692+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1919,
-    "ssl_count": 1919
+    "total_count": 1920,
+    "ssl_count": 1920
   },
   "opportunities": [
     {
@@ -63328,6 +63328,39 @@
       "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1325471",
+      "needtitle": "Donate Bagged Lunches to Interfaith Works Shelters (All Sites)",
+      "agencyname": "Interfaith Works",
+      "needdetails": "Notice: Students can earn 4 SSL hours for making 40 bagged lunches fitting the criteria listed\nabove. If a student donates 60 bagged lunches, they will earn 5hrs, and if they donate 70 bagged lunches, they will earn 5.5hrs. If\nmultiple students are donating together, the total hours earned will be split\nbetween all of the students involved.\nThe Interfaith Works\nHomeless Services Department operates 4 homeless shelters throughout Montgomery\nCounty. These are short-term shelters in which our clients are paired with a\ncase manager to ensure that they reach housing stability. Some of our clients leave the shelter on a daily basis to either work, go to job interviews, or\nview potential homes. Providing Bagged Lunches is a great way to support our clients\nworking to achieve housing stability. \nFor more information\nand to coordinate this effort, contact the Faith & Community Partnership\nteam at FaithCommunityPartnerships@iworksmc.org\nor 240-380-4470\nNumber of clients to be served: 40 - 70\nLunches should\ncontain the following:     \nWater\nFruit\nChips\nDessert (cookies, fruit\n snacks, etc.)\n1 - 2 Separately bagged\n Sandwiches (tuna salad, chicken salad, ham & cheese w/ condiments or\n peanut butter & Jelly)\nJuice or drink add-ins\nDrop-Off Location: \nWill vary. Contact us\ndirectly to schedule drop-off FaithCommunityPartnerships@iworksmc.org\nor 240-380-4470\nStudents can earn 4 SSL hours for making\n 40 bagged lunches\n fitting the criteria listed\nabove. If a student donates 60 bagged lunches, they will earn 5hrs, and if they donate 70 bagged lunches, they will earn 5.5hrs. \nIf\nmultiple students are donating together, the total hours earned will be split\nbetween all of the students involved. Example: 4 students work together to provide 70 bagged\nlunches, then they each will receive 1.4 hrs. When dropping off meals, please label the containers/bags\nwith the ingredients so our team can share the information with individuals\nwith dietary restrictions. \nThank you for your\nsupport!\nStudent participation in this service project is at the\ndiscretion of the student’s parent/guardian. The nonprofit organization is\nresponsible for maintaining student safety and privacy at any time the student\nis interacting with the nonprofit and its clients. The nonprofit organization\nwill determine the number of SSL hours awarded based on the evidence submitted.\nParents/guardians should contact the nonprofit directly with any questions\nand/or concerns. This service activity is designed to be completed within the\nsafety of the student’s home.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1325471",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1325471",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nNicole Josey | njosey@iworksmc.org | 240-380-4470",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": true,
       "tags": [],
       "dateadded": "",
       "dateupdated": "",
