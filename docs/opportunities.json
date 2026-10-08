@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-06T17:03:18.917869+00:00",
+    "scraped_at": "2026-10-08T00:03:03.758179+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 1912,
-    "ssl_count": 1912
+    "total_count": 1913,
+    "ssl_count": 1913
   },
   "opportunities": [
     {
@@ -63096,6 +63096,39 @@
       "isSSL": true,
       "isFamilyFriendly": false,
       "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1321693",
+      "needtitle": "Limpiezas comunitarias - Proyecto Basura Busters",
+      "agencyname": "Defensores de la Cuenca",
+      "needdetails": "Iniciativa comunitaria que reúne a vecinos y jóvenes para cuidar y proteger nuestro entorno. A través de jornadas de limpieza y actividades de concientización sobre el manejo adecuado de residuos, trabajamos para mantener limpias nuestras comunidades y proteger los afluentes que desembocan en el río Anacostia.\nLa participación de los estudiantes en este proyecto de servicio queda a discreción de sus padres o tutores legales y debe realizarse fuera del horario escolar, en un espacio público y bajo la supervisión directa de la organización sin fines de lucro. Dicha organización es responsable de garantizar la seguridad de los estudiantes. Los padres o tutores deben comunicarse directamente con la organización si tienen alguna pregunta o inquietud.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1321693",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1321693",
+      "needaddress": "Location Dot Shift\n Long Branch Community Center \n Silver Spring, MD 20901",
+      "needcity": "Location Dot Shift\n Long Branch Community Center \n Silver Spring",
+      "needstate": "MD",
+      "needzip": "20901",
+      "needdatetype": "Oct 16, 2026",
+      "needdate": "Oct 16, 2026",
+      "registrationclosed": "",
+      "needhoursdescription": "",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nSvetlana Reyes | svetlana@tucuenca.org",
+      "interests": "Environment, Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
+      "isOutdoors": true,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
