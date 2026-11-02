@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-10-29T23:28:37.951549+00:00",
+    "scraped_at": "2026-11-02T20:36:13.612662+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 2038,
-    "ssl_count": 2038
+    "total_count": 2039,
+    "ssl_count": 2039
   },
   "opportunities": [
     {
@@ -67249,6 +67249,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "",
       "interests": "Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1335379",
+      "needtitle": "Senior Thanksgiving Baskets -Volunteers Needed",
+      "agencyname": "Just Because We Care Inc.",
+      "needdetails": "A big part of Just Because We Care Inc's holiday giving is making sure our low-income elderly community members aren't forgotten this holiday season. \nJust Because We Care Inc reaches those in all spaces and places within the DMV with love, honor, dignity and respect for all.\nLocation Address:\nCapital Gateway Senior Residence\n201 58th street NE\nWashington DC 20019\nDates:\nNovember 4th and November 19th\nArrival Time: 11:30am - light refreshment and set up\nEnding Time: 3:30pm - clear away/ clean up\nWe are looking for 3 or 4 adult volunteers to assist us with the following:\nNov 4th:\n1. Set Up/ Clean Up\n2. Signing Up Elderly community members for Thanksgiving Baskets - \n3. Go door to door to sign up our elderly community members who have mobility issues and cannot not make it down to the first floor for sign up.\nNov 19th:\n1. Set Up\n2. Hand out Thanksgiving Baskets According to name\n3. Go door to door to hand out Thanksgiving Baskets to our elderly community members with mobility issues  and can not make it to the first floor for pick up.\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1335379",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1335379",
+      "needaddress": "Location Dot Shift\n Capital Gateway Senior Residence\n 201 58 Street, NE\n Washington , DC\n  20019",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
