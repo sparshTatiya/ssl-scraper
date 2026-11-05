@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-05T18:25:21.656681+00:00",
+    "scraped_at": "2026-11-05T20:56:07.290729+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 2058,
-    "ssl_count": 2058
+    "total_count": 2059,
+    "ssl_count": 2059
   },
   "opportunities": [
     {
@@ -67914,6 +67914,39 @@
       "isSSL": true,
       "isFamilyFriendly": false,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1337519",
+      "needtitle": "English Instructor for Seniors",
+      "agencyname": "Harmony Adult Day Care LLC",
+      "needdetails": "Harmony Adult Day Center is seeking a compassionate volunteer English Instructor to lead engaging, beginner-level conversational English classes for our senior participants. Classes are designed to help older adults build confidence in daily communication, learn practical vocabulary, and enjoy lively social interaction.\nVolunteer Roles & Tasks:\n• Lead interactive, small-group conversational English sessions (beginner to intermediate level).\n• Focus on practical everyday themes (shopping, medical appointments, greetings, hobbies).\n• Foster a friendly, patient, and encouraging learning environment.\n• Collaborate with center staff who are present during the sessions to assist with participants.\nTime Commitment & Schedule:\n• 1 to 2 hours per week.\n• Weekday schedule (flexible mornings between 10:30 AM and 12:00 PM).",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1337519",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1337519",
+      "needaddress": "Location Dot Shift\n 630 E Diamond Ave\n Ste F\n Gaithersburg, MD\n  20877",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "11:00amto 12:00pm; 11:00amto 12:00pm; 11:00amto 12:00pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nIrina Skomorokhova | activities@harmonyadultdaycenter.com",
+      "interests": "Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
