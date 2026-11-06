@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-05T20:56:07.290729+00:00",
+    "scraped_at": "2026-11-06T01:18:56.967481+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 2059,
-    "ssl_count": 2059
+    "total_count": 2060,
+    "ssl_count": 2060
   },
   "opportunities": [
     {
@@ -67942,6 +67942,39 @@
       "needvolunteersneeded": 0,
       "needcontact": "Clipboard 1 Shift\nIrina Skomorokhova | activities@harmonyadultdaycenter.com",
       "interests": "Education / Mentoring",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1338374",
+      "needtitle": "Fellows in Training Coach",
+      "agencyname": "Student Global Ambassador Program (SGAP Leaders)",
+      "needdetails": "The mission of SGAP Leaders is to empower 7th to 12th graders to build leadership skills through STEM, sustainability, and social impact. We have been able to do this with the help of amazing volunteers of all ages across our programs.\nThis upcoming spring, we are launching our \nFellows in Training\n program, and we would love to recruit up to 9 coaches. Coaches will lead instruction on topics related to environmental science and will receive a stipend for their support of the program and its students. Individuals from all educational backgrounds are welcome, whether it is in education, the sciences, or another field.\nFellows in Training Coach: Interest Form -\nhttps://forms.gle/\n4DGgotJvUJZdv5Jf9\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1338374",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1338374",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "3 PM - 4:30 PM",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "Clipboard 1 Shift\nSarah S. | project_mgr@sgapleaders.org",
+      "interests": "Environment, Education / Mentoring",
       "qualifications": "",
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
