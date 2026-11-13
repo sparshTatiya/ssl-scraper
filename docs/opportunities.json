@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-13T18:19:42.173377+00:00",
+    "scraped_at": "2026-11-13T20:43:49.803838+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 2080,
-    "ssl_count": 2080
+    "total_count": 2081,
+    "ssl_count": 2081
   },
   "opportunities": [
     {
@@ -68639,6 +68639,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": false,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1342413",
+      "needtitle": "MLK Day of Service at Prathertown",
+      "agencyname": "Prathertown Community Development Corporation",
+      "needdetails": "In the spirit of year-round service and the legacy of Dr. Martin Luther King Jr., Prathertown is hosting our annual Day of Service on \nSaturday, \nJanuary\n 16th\n! Founded in 1883 by emancipated people, Prathertown is proud of its deep roots and legacy of service. This year, volunteers will gather at the Gaithersburg Public Library to build care kits a\nnd make handmade gifts for local shelters and community members in need. There will also be trivia games and raffle giveaways to keep the day fun!\nWhat we will do\n:\nPack care kits for local shelters\nDecorate onesies for infants, blankets, cards, and buttons\nWhat to bring\n:\nA positive attitude and willingness to work\nReliability, attentiveness, and professionalism during the event\nSustainable water bottle\nCommitment to a minimum of 2 hours per session\nNonperishable foods, toiletries, and diapers for donation \nTime commitment\n: A few hours on January 16th from 10am-12pm or 12pm-3pm\nImpact\n: Every kit packed, card written, and onesie decorated goes directly to neighbors in need. With your help, we can deliver as much food, clothing, and as many toiletries as possible to local shelters.\nAddress\n: 18330 Montgomery Village Ave. Gaithersburg, MD 20879\nContact information\n: Email: info@prathertown.org - Phone: (301) 258-1003 - Website: \nwww.prathertown.org\nEligible for SSL hours.\nCancellations follow MCPS closures.\nStudent participation in this service project is at the discretion of the student’s parent/guardian \nand must be completed outside of school hours in a public space under direct supervision of the nonprofit organization\n. The nonprofit organization is responsible for maintaining student safety. Parents/guardians should contact the nonprofit directly with any questions and/or concerns.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1342413",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1342413",
+      "needaddress": "Location Dot Shift\n 18330 Montgomery Village Ave.\n Gaithersburg, MD\n  20879",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "Jan 16, 2027",
+      "needdate": "Jan 16, 2027",
+      "registrationclosed": "",
+      "needhoursdescription": "10am-12pm; 12pm-3pm; 10am-12pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Housing / Shelter",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": true,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
