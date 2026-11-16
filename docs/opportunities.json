@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-13T20:43:49.803838+00:00",
+    "scraped_at": "2026-11-16T20:45:43.218462+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 2081,
-    "ssl_count": 2081
+    "total_count": 2082,
+    "ssl_count": 2082
   },
   "opportunities": [
     {
@@ -68672,6 +68672,39 @@
       "initiativetitle": "MCPS SSL",
       "isSSL": true,
       "isFamilyFriendly": true,
+      "isOutdoors": false,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1341328",
+      "needtitle": "Oversee Parking - Be part of the community's favorite festival!",
+      "agencyname": "Sandy Spring Museum",
+      "needdetails": "On Saturday, June 5, 2026, Sandy Spring Museum will host its 44th annual Strawberry Festival.  This community tradition is a favorite of generations of attendees.  Volunteers will enjoy seeing the thousands of happy festival attendees!\nThe Parking Coordinator is responsible for\n pre-festival planning and \nsupporting \nparking\n attendants\n on\n the day of the \nF\nestival\n. \nL\nots\n may include\n Sherwood HS, Sherwood Elementary, Olive Branch Church, \nSharp Street Church, and the Sandy Spring Fire House.\nBefore the Festival:  \nWork with museum staff and Festival Coordinator to \ndetermine\n overall parking plan, including lot usage, shuttles and any accommodations or agreements with parking partners (\ni.e.\n shortcake coupons should be given out by parking attendants, etc.).\nCommunicate with parking partners as needed.\nWork\n with museum staff and Festival \nC\noordinator to \ndetermine\n volunteer needs.\nRecruit \nand/or work with the Volunteer Coordinator to fill positions.\nDay of \nthe\n Festival: \nSet-up: \nArrive at 6:30 \nAM \nto place \nsigns and\n/or\n cones \nto \nmark parking areas. \nObtain and use a walkie talkie to communicate with the rest of the \nFestival\nteam\n for \nany issues or needs.\nTrain parking volunteers on their duties and how to communicate with attendees.\nSafety: \nMake sure volunteers are wearing reflective vest\ns\n and\n have access to water as needed\n.\nSafely and efficiently guide guests into and out of parking space\ns at Sherwood HS.\nEnsure \nall \nfacets\n of parking plan are followed.\nWhile this opportunity requires some pre-festival management (communicating with the festival chairs by email and phone), which will take about 10 hours, most of the work is required on the day of the festival.  The festival is a long-standing tradition so you will receive lots of support from staff and other volunteers.\nNot approved for MCPS SSL hours.",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1341328",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1341328",
+      "needaddress": "Location Dot Shift\n 17901 Bentley Road\n Sandy Spring, MD\n  20860",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "6:30 am - 6 pm",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": true,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "Arts / Culture, Recreation / Sports",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
       "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
