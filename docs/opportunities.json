@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "scraped_at": "2026-11-24T23:21:17.558322+00:00",
+    "scraped_at": "2026-11-25T20:20:01.845130+00:00",
     "source": "montgomerycountymd.galaxydigital.com",
-    "total_count": 2133,
-    "ssl_count": 2133
+    "total_count": 2134,
+    "ssl_count": 2134
   },
   "opportunities": [
     {
@@ -70389,6 +70389,39 @@
       "isSSL": true,
       "isFamilyFriendly": true,
       "isOutdoors": true,
+      "isVirtual": false,
+      "tags": [],
+      "dateadded": "",
+      "dateupdated": "",
+      "agencyid": ""
+    },
+    {
+      "id": "1347431",
+      "needtitle": "Holiday Giving & Spreading Joy - Cookie Delivery (Dec 5-6)",
+      "agencyname": "PROJECT BLACKBIRD, Inc.",
+      "needdetails": "Help Project Blackbird deliver cookies and a little bit of joy to neighborhoods across the DMV the weekend of December 5 and 6! Volunteers hand-deliver treats and share about Project Blackbird's youth mental health work and free resources along the way. It is a warm, fun, and meaningful way to spread joy during the holidays. Exact times and the meeting location will be shared with everyone who signs up. We cannot wait to spread some joy with you!\nNot approved for SSL Hours",
+      "needlinkURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1347431",
+      "signupURL": "https://montgomerycountymd.galaxydigital.com/need/detail/?need_id=1347431",
+      "needaddress": "",
+      "needcity": "",
+      "needstate": "MD",
+      "needzip": "",
+      "needdatetype": "ongoing",
+      "needdate": "",
+      "registrationclosed": "",
+      "needhoursdescription": "Ongoing",
+      "needagerequirements": "",
+      "minAge": 0,
+      "maxAge": 0,
+      "needallowteams": false,
+      "needvolunteersneeded": 0,
+      "needcontact": "",
+      "interests": "",
+      "qualifications": "",
+      "initiativetitle": "MCPS SSL",
+      "isSSL": true,
+      "isFamilyFriendly": false,
+      "isOutdoors": false,
       "isVirtual": false,
       "tags": [],
       "dateadded": "",
